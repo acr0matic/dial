@@ -1,7 +1,19 @@
 // Цветовая палитра блоков
 $palette-white: #ffffff;
-$pallete-black: #393d46;
+$pallete-black: #262626;
+$pallete-gray: #3e3e3e;
+$pallete-blue: (
+  "light": #50579b,
+  "regular": #404786,
+  "dark": #363d7b,
+  "darken": #2d3369,
+);
 
 // Цветовая палитра текста
 $color-text__black: #252525;
 $color-text__white: #ffffff;
+$color-text__gray: #b8b8b8;
+$color-text__yellow: (
+  "yellow": #dc9d62,
+  "gold": #c77e3a,
+);
