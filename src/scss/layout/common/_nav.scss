@@ -18,12 +18,21 @@
   }
 
   &__link {
+    padding: 5px 0;
     font-size: $font-size__text--regular;
     font-weight: $weight-Bold;
     color: $color-text__white;
 
+    transition: $transition__link;
+
     &--active {
       color: map-get($color-text__yellow, "yellow");
+    }
+
+    @media (hover: hover) {
+      &:hover {
+        color: map-get($color-text__yellow, "yellow");
+      }
     }
   }
 

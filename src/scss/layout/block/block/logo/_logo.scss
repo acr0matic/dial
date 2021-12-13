@@ -1,0 +1,13 @@
+.logo {
+  & > a {
+    @media (hover: hover) {
+      &:hover img {
+        opacity: 0.6;
+      }
+    }
+  }
+
+  &__image {
+    transition: $transition__link;
+  }
+}
