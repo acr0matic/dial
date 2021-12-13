@@ -1,0 +1,26 @@
+// -----------------------------------------------------------------------------
+// Фрагмент стилизации страниц
+// -----------------------------------------------------------------------------
+
+.page {
+  &__title {
+    font-size: $font-size__title--small;
+    font-weight: $weight-Regular;
+
+    line-height: 130%;
+    letter-spacing: 2px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      font-size: $font-size__title--small - 8;
+    }
+  }
+
+  &__subtitle {
+    font-size: $font-size__text--large;
+    font-weight: $weight-Regular;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      font-size: $font-size__text--regular;
+    }
+  }
+}

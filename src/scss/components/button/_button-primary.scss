@@ -1,4 +1,12 @@
 $background: #dc9d62;
+$background--hover: $hover;
 
 .button-primary {
+  background-color: $background;
+
+  @media (hover: hover) {
+    &:hover {
+      background-color: $background--hover;
+    }
+  }
 }

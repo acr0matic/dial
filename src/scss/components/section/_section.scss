@@ -1,0 +1,13 @@
+.section {
+  &--primary {
+    padding-top: $header-height;
+  }
+
+  &__title {
+    font-family: Furore, sans-serif;
+    font-size: $font-size__title--regular;
+  }
+
+  &__subtitle {
+  }
+}

@@ -1,0 +1,42 @@
+#hero {
+  padding-top: 170px + $header-height;
+  padding-bottom: 205px;
+
+  @include background(
+    "../img/page/main/background.svg",
+    $position: center center
+  );
+
+  @include breakpoint($breakpoint-laptop--large) {
+    padding-top: 165px + $header-height;
+    padding-bottom: 170px;
+  }
+}
+
+.hero {
+  position: relative;
+
+  &__content {
+  }
+
+  &__title {
+    margin-bottom: 30px;
+  }
+
+  &__subtitle {
+    margin-bottom: 50px;
+  }
+
+  &__picture {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+
+    max-width: 420px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      max-width: 355px;
+    }
+  }
+}

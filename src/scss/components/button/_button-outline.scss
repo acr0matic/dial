@@ -1,6 +1,17 @@
 $background: transparent;
+$background--hover: $hover;
+
 $border: #ffffff;
+$border--hover: $hover;
 
+.button-outline {
+  background-color: $background;
+  box-shadow: 0px 0px 0px 3px $border inset;
 
-.button-primary {
+  @media (hover: hover) {
+    &:hover {
+      background-color: $hover;
+      box-shadow: 0px 0px 0px 3px $border--hover inset;
+    }
+  }
 }
