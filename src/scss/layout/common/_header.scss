@@ -3,9 +3,34 @@
 // -----------------------------------------------------------------------------
 
 #header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 
+  background-color: rgba($color: #262626, $alpha: 0.73);
 }
 
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
+  padding: 15px 0;
+
+  &__callback {
+    text-align: right;
+  }
+
+  &__phone {
+    color: $color-text__white;
+    font-weight: $weight-Bold;
+  }
+
+  &__action {
+    font-size: $font-size__text--small;
+    color: map($map: $color-text__yellow, $key: "yellow");
+
+    cursor: pointer;
+  }
 }

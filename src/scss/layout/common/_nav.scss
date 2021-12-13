@@ -1,13 +1,37 @@
 .nav {
-  &__list {
+  &__primary {
+  }
 
+  &__additional {
+    .nav__link {
+      font-size: $font-size__text--small;
+      font-weight: $weight-Regular;
+    }
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
   }
 
   &__item {
-
   }
 
   &__link {
+    font-size: $font-size__text--regular;
+    font-weight: $weight-Bold;
+    color: $color-text__white;
 
+    &--active {
+      color: map-get($color-text__yellow, "yellow");
+    }
+  }
+
+  &--header {
+    .nav__item {
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
   }
 }
