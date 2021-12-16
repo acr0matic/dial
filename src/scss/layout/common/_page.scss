@@ -5,10 +5,11 @@
 .page {
   &__title {
     font-size: $font-size__title--small;
-    font-weight: $weight-Regular;
 
     line-height: 130%;
     letter-spacing: 2px;
+
+    color: $color-text__white;
 
     @include breakpoint($breakpoint-laptop--large) {
       font-size: $font-size__title--small - 8;

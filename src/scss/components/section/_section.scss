@@ -1,11 +1,32 @@
 .section {
+  padding-top: 100px;
+
   &--primary {
     padding-top: $header-height;
   }
 
   &__title {
+    display: inline-block;
+    margin-bottom: 50px;
+
     font-family: Furore, sans-serif;
     font-size: $font-size__title--regular;
+    font-weight: $weight-Regular;
+
+    color: $color-text__gray;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      font-size: $font-size__title--small - 8;
+    }
+
+    &--underline {
+      padding-bottom: 25px;
+      border-bottom: 4px solid $color-text__gray;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        padding-bottom: 20px;
+      }
+    }
   }
 
   &__subtitle {

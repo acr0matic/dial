@@ -1,0 +1,18 @@
+.list {
+  padding-left: 25px;
+
+  &--big {
+    .list__item {
+      list-style-type: disc;
+
+      &::marker {
+        font-size: 32px;
+        color: map($color-text__yellow, "gold");
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
