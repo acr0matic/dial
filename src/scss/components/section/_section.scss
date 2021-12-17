@@ -1,5 +1,9 @@
 .section {
-  padding-top: 100px;
+  padding-top: 140px;
+
+  @include breakpoint($breakpoint-laptop--large) {
+    padding-top: 100px;
+  }
 
   &--primary {
     padding-top: $header-height;

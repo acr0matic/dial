@@ -1,13 +1,16 @@
 #textblock {
-
 }
 
 .textblock {
+  &__picture {
+    margin-top: 85px;
+    max-width: 660px;
+  }
+
   &__content {
     font-size: $font-size__text--large;
   }
 
   &__list {
-
   }
 }

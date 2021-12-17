@@ -1,0 +1,78 @@
+// -----------------------------------------------------------------------------
+// Фрагмент стилизации какой-то секции
+// -----------------------------------------------------------------------------
+
+#step {
+}
+
+.step {
+  &__col {
+    &:nth-child(2) {
+      margin-top: 70px;
+    }
+
+    &:nth-child(3) {
+      @include breakpoint($breakpoint-laptop--large) {
+        margin-top: -40px;
+      }
+    }
+
+    &:nth-child(4) {
+      margin-top: 70px;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        margin-top: 30px;
+      }
+    }
+  }
+
+  &__item {
+    height: 250px;
+    overflow: hidden;
+  }
+
+  &__title {
+    margin-bottom: 20px;
+    font-size: $font-size__text--large;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      max-width: 240px;
+    }
+  }
+
+  &__description {
+    max-width: 350px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      max-width: 300px;
+    }
+  }
+
+  &__picture {
+    position: absolute;
+
+    &--first {
+      top: 0;
+      right: 50px;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        right: 30px;
+      }
+    }
+
+    &--second {
+      top: 30px;
+      right: 45px;
+    }
+
+    &--third {
+      top: 25px;
+      right: 30px;
+    }
+
+    &--fourth {
+      top: 20px;
+      right: 20px;
+    }
+  }
+}
