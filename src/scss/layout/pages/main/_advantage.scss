@@ -1,0 +1,17 @@
+#advantage {
+}
+
+.advantage {
+  &__item {
+    text-align: center;
+  }
+
+  &__icon {
+    max-width: 150px;
+    margin: 0 auto 10px;
+  }
+
+  &__title {
+    margin-bottom: 15px;
+  }
+}
