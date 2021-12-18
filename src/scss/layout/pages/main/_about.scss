@@ -1,0 +1,24 @@
+#about {
+}
+
+.about {
+  &__logo {
+    margin-bottom: 50px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__description {
+    margin-bottom: 60px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__picture {
+    height: 400px;
+  }
+}

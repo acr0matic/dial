@@ -7,7 +7,28 @@
     }
   }
 
+  &--header {
+    .logo__image {
+      max-width: 120px;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        max-width: 95px;
+      }
+    }
+  }
+
+  &--about {
+    .logo__image {
+      max-width: 120px;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        max-width: 105px;
+      }
+    }
+  }
+
   &__image {
+    width: 100%;
     transition: $transition__link;
   }
 }
