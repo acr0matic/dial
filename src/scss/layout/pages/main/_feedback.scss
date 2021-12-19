@@ -1,0 +1,43 @@
+#feedback {
+
+}
+
+.feedback {
+  &__item {
+    border-radius: $border-radius--secondary;
+  }
+
+  &__content {
+    margin-bottom: 20px;
+  }
+
+  &__footer {
+    display: flex;
+    align-items: center;
+  }
+
+  &__avatar {
+    width: 75px;
+    height: 75px;
+
+    margin-right: 30px;
+
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+
+    font-weight: $weight-Bold;
+  }
+
+  &__name {
+    margin-bottom: 10px;
+  }
+
+  &__company {
+    color: map($color-text__yellow, "gold");
+  }
+}
