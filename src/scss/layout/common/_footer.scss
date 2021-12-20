@@ -3,9 +3,26 @@
 // -----------------------------------------------------------------------------
 
 #footer {
+  padding-top: 60px;
+  padding-bottom: 30px;
 
+  background-color: $pallete-gray;
 }
 
 .footer {
+  &__contact {
+    display: flex;
+    flex-direction: column;
+  }
 
+  &__copyright {
+    display: flex;
+    align-items: center;
+
+    margin-top: 40px;
+
+    & > * {
+      color: #5a5a5a;
+    }
+  }
 }

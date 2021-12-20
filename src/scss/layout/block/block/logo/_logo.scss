@@ -27,6 +27,13 @@
     }
   }
 
+
+  &--footer {
+    .logo__image {
+      max-width: 140px;
+    }
+  }
+
   &__image {
     width: 100%;
     transition: $transition__link;

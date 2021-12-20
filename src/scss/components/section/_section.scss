@@ -9,6 +9,10 @@
     padding-top: $header-height;
   }
 
+  &--last {
+    margin-bottom: 100px;
+  }
+
   &__title {
     display: inline-flex;
     margin-bottom: 50px;
