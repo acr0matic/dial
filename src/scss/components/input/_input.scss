@@ -5,6 +5,65 @@ $border--error: 2px solid #b66b26;
 $border--focus: 2px solid #ffffff;
 
 .input {
+  position: relative;
+
   &__field {
+    width: 100%;
+
+    border: 2px solid transparent;
+    border-radius: $border-radius;
+    outline: none;
+
+    padding: 20px 30px;
+    background-color: $background;
+
+    transition: $transition__component;
+    font-size: $font-size__text--regular;
+
+    color: $color-text__white;
+
+    @media (hover: hover) {
+      &:hover {
+        // background-color: $section-primary;
+      }
+    }
+
+    &:focus {
+      border: $border--focus;
+      // background-color: $section-primary;
+    }
+
+    &::placeholder {
+      color: $color-text__darkgray;
+    }
+  }
+
+  &__warning {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+
+    width: 20px;
+    height: 20px;
+
+    transform: translateY(-50%);
+
+    cursor: help;
+
+    visibility: hidden;
+    opacity: 0;
+
+    transition: 0.2s ease;
+  }
+
+  &--error {
+    .input__field {
+      border-color: $border--error;
+    }
+
+    .input__warning {
+      opacity: 1;
+      visibility: visible;
+    }
   }
 }
