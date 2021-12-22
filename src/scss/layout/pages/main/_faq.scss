@@ -1,0 +1,14 @@
+#faq {
+  .section__title {
+    color: $color-text__white;
+  }
+
+  .row {
+    --bs-gutter-x: 3.5rem;
+  }
+}
+
+.faq {
+  padding: 70px 0;
+  background-color: map($pallete-blue, "darken");
+}
