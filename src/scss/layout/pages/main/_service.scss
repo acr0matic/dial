@@ -1,0 +1,80 @@
+#service {
+}
+
+.service {
+  display: flex;
+  justify-content: space-between;
+
+  &__col {
+    position: relative;
+    width: 50%;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+
+      width: 100%;
+      height: 100%;
+    }
+
+    &:first-child {
+      background-color: map($pallete-blue, "darken");
+
+      &::after {
+        left: -100%;
+        background-color: map($pallete-blue, "darken");
+      }
+    }
+
+    &:last-child {
+      padding-left: 80px;
+      background-color: map($pallete-blue, "regular");
+
+      box-shadow: -5px 0 30px rgba(0, 0, 0, 0.35);
+
+      &::after {
+        right: -100%;
+        background-color: map($pallete-blue, "regular");
+      }
+    }
+  }
+
+  &__content {
+    overflow: hidden;
+    padding: 220px 0;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      padding: 110px 0;
+    }
+  }
+
+  &__title {
+    margin-bottom: 25px;
+
+    font-size: $font-size__title--large;
+    color: $color-text__white;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      font-size: $font-size__text--large;
+    }
+  }
+
+  &__description {
+    margin-bottom: 35px;
+  }
+
+  &__action {
+    position: relative;
+  }
+
+  &__icon {
+    position: absolute;
+    bottom: 0;
+    left: 400px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      left: 280px;
+    }
+  }
+}
