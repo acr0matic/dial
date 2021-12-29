@@ -1,0 +1,91 @@
+.slider {
+  position: relative;
+}
+.swiper {
+  &--overflow {
+    overflow: initial;
+  }
+
+  &--shadow {
+    margin: -15px;
+    padding: 15px;
+  }
+
+  &__control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 20px;
+
+    &--heading {
+      .swiper-button-prev {
+        left: 90%;
+      }
+
+      .swiper-button-next {
+        right: 0;
+      }
+
+      .swiper-button-prev,
+      .swiper-button-next {
+        top: 18px;
+
+        width: 36px;
+        height: 36px;
+
+        &::after {
+          font-size: 18px;
+        }
+
+        @include breakpoint($breakpoint-laptop--large) {
+          position: absolute;
+          margin-top: -21px;
+        }
+      }
+    }
+  }
+
+  &-button {
+    &-prev,
+    &-next {
+      width: 45px;
+      height: 45px;
+      border-radius: $border-radius--small;
+
+      background-color: #c77e3a;
+
+      transition: $transition__component;
+
+      outline: none;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        position: static;
+        margin-top: 0;
+      }
+
+      &::after {
+        color: #ffffff;
+        font-size: 24px;
+      }
+
+      @media (hover: hover) {
+        &:hover {
+          opacity: 0.6;
+        }
+      }
+    }
+
+    &-prev {
+      left: 0;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        margin-right: 90px;
+      }
+    }
+
+    &-next {
+      right: 0;
+    }
+  }
+}
