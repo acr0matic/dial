@@ -40,8 +40,8 @@ $border--focus: 2px solid #ffffff;
 
   &__warning {
     position: absolute;
-    top: 50%;
-    right: 10px;
+    top: calc(50% - 1px);
+    right: 20px;
 
     width: 20px;
     height: 20px;

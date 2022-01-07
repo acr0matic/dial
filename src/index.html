@@ -889,14 +889,14 @@
 
               <form action="" data-trigger="callback" data-subject="Заявка на подбор персонала" class="callback__form form form-callback">
                 <div class="input mb-4">
-                  <input placeholder="Ваш номер телефона" autocomplete="off" type="tel" name="user__phone" class="input__field">
-                  <img data-tippy-content="" class="input__warning" src="" alt="">
+                  <input data-required placeholder="Ваш номер телефона" autocomplete="off" type="tel" name="user_phone" class="input__field">
+                  <img data-tippy-content="Номер телефона не указан или указан с ошибками" class="input__warning" src="img/icons/other/warning.svg" alt="">
                 </div>
                 <!-- /.input -->
 
                 <div class="input mb-5">
-                  <input placeholder="Вас зовут" autocomplete="off" type="tel" name="user__name" class="input__field">
-                  <img data-tippy-content="" class="input__warning" src="" alt="">
+                  <input data-required placeholder="Вас зовут" autocomplete="off" type="text" name="user_name" class="input__field">
+                  <img data-tippy-content="Имя не указано или указано с ошибками" class="input__warning" src="img/icons/other/warning.svg" alt="">
                 </div>
                 <!-- /.input -->
 
@@ -1002,6 +1002,10 @@
   <script src="scripts/libraries/handorgel.min.js"></script>
   <script src="scripts/libraries/swiper.js"></script>
   <script src="scripts/libraries/smoothScroll.js"></script>
+  <script src="scripts/libraries/popper.min.js"></script>
+  <script src="scripts/libraries/tippy.min.js"></script>
+  <script src="scripts/libraries/imask.js"></script>
+  <script src="scripts/libraries/forms.js"></script>
 
   <script src="scripts/init.js"></script>
   <script src="scripts/main.js"></script>
