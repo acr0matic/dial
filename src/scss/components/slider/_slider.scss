@@ -51,15 +51,18 @@
     &-next {
       width: 45px;
       height: 45px;
+      margin-top: 0;
+
       border-radius: $border-radius--small;
 
       background-color: #c77e3a;
 
+      transform: translateY(-50%);
       transition: $transition__component;
 
       outline: none;
 
-      @include breakpoint($breakpoint-laptop--large) {
+      @include breakpoint($breakpoint-laptop--medium) {
         position: static;
         margin-top: 0;
       }

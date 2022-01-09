@@ -1,8 +1,8 @@
 .section {
-  padding-top: 140px;
+  padding-top: $section-padding;
 
   @include breakpoint($breakpoint-laptop--large) {
-    padding-top: 100px;
+    padding-top: $section-padding - 40;
   }
 
   &--primary {
@@ -38,5 +38,13 @@
   }
 
   &__subtitle {
+  }
+
+  &__wrapper {
+    position: relative;
+  }
+
+  &__picture {
+    position: absolute;
   }
 }

@@ -3,12 +3,22 @@
     color: $color-text__white;
   }
 
+  .section__picture {
+    top: 0;
+    right: 30px;
+  }
+
+  .section__wrapper {
+    background-color: map($pallete-blue, "darken");
+  }
+
   .row {
     --bs-gutter-x: 3.5rem;
   }
 }
 
 .faq {
+  position: relative;
+  z-index: 1;
   padding: 70px 0;
-  background-color: map($pallete-blue, "darken");
 }
