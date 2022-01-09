@@ -1,0 +1,28 @@
+.tippy-box[data-theme~="flat-white"],
+.tippy-box[data-theme~="flat-black"] {
+  z-index: 5;
+  padding: 0;
+
+  border-radius: 5px;
+
+  font-size: 14px;
+  box-shadow: $shadow-primary;
+
+  .tippy-content {
+    padding: 10px;
+  }
+
+  .tippy-arrow {
+    color: $palette-white;
+  }
+}
+
+.tippy-box[data-theme~="flat-white"] {
+  background-color: $palette-white;
+  color: $color-text__black;
+}
+
+.tippy-box[data-theme~="flat-black"] {
+  background-color: $palette-black;
+  color: $color-text__white;
+}

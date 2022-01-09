@@ -163,7 +163,7 @@
             </h2>
 
             <div class="hero__action">
-              <button class="button button-primary me-2">Подобрать персонал</button>
+              <button data-micromodal-trigger="modal-callback" class="button button-primary me-2">Подобрать персонал</button>
               <button class="button button-outline">Вакансии</button>
             </div>
             <!-- /.hero__action -->
@@ -184,11 +184,13 @@
       <div class="container">
         <div class="textblock">
           <div class="row">
-            <div class="col-7">
+            <div class="col-7 position-relative">
               <div class="textblock__picture">
                 <img src="img/page/main/textblock/picture.png" alt="" class="textblock__image image">
               </div>
               <!-- /.textblock__picture -->
+
+              <div data-tippy-content="Я сотрудник кадрового отдела, нахожу кандидатов на ваши вакансии, провожу собеседования и координирую сотрудников до места работы" class="tooltip tooltip--animated tooltip--task"></div>
             </div>
             <!-- /.col-7 -->
 

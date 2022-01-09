@@ -5,11 +5,18 @@ const scrollController = new SmoothScroll('a[href*="#"]', {
   speed: 300,
 });
 
-tippy('[data-tippy-content]', {
+tippy('img[data-tippy-content]', {
   allowHTML: true,
   maxWidth: 300,
-  theme: 'flat',
+  theme: 'flat-black',
   placement: 'left',
+});
+
+tippy('div[data-tippy-content]', {
+  allowHTML: true,
+  maxWidth: 300,
+  theme: 'flat-white',
+  placement: 'right',
 });
 
 const forms = document.querySelectorAll('form');
