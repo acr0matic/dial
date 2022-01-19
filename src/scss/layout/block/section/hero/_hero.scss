@@ -48,7 +48,7 @@
     }
 
     &--big {
-      max-width: 600px;
+      max-width: 620px;
 
       @include breakpoint($breakpoint-laptop--large) {
         max-width: 450px;
