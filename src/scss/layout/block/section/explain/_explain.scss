@@ -1,0 +1,19 @@
+#explain {
+}
+
+.explain {
+  margin-top: 40px;
+
+  &__item {
+    text-align: center;
+  }
+
+  &__icon {
+    max-width: 150px;
+    margin: 0 auto 20px;
+  }
+
+  &__title {
+    margin-bottom: 15px;
+  }
+}

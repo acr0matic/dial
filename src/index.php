@@ -2,7 +2,7 @@
 
 <!-- Основной контент -->
 <main>
-  <section id="hero" class="section section--primary">
+  <section style="background-image: url('img/page/main/hero/background.svg');" id="hero" class="section section--primary">
     <div class="container">
       <div class="hero">
         <div class="hero__content">

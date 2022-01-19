@@ -2,10 +2,10 @@
   padding-top: 170px + $header-height;
   padding-bottom: 205px;
 
-  @include background(
-    "../img/page/main/background.svg",
-    $position: center center
-  );
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: map($palette-blue, "darken");
 
   @include breakpoint($breakpoint-laptop--large) {
     padding-top: 165px + $header-height;
@@ -21,6 +21,14 @@
 
   &__title {
     margin-bottom: 30px;
+
+    &--big {
+      font-size: 56px;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        font-size: 45px;
+      }
+    }
   }
 
   &__subtitle {
@@ -31,12 +39,20 @@
     position: absolute;
     top: 50%;
     right: 0;
-    transform: translateY(-50%);
-
     max-width: 420px;
+
+    transform: translateY(-50%);
 
     @include breakpoint($breakpoint-laptop--large) {
       max-width: 355px;
+    }
+
+    &--big {
+      max-width: 600px;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        max-width: 450px;
+      }
     }
   }
 }

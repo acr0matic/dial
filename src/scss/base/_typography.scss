@@ -6,3 +6,7 @@ body {
   font-family: Rubik, sans-serif;
   font-size: $font-size__text--regular;
 }
+
+p, li, span {
+  line-height: 140%;
+}
