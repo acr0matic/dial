@@ -38,7 +38,7 @@
     <!-- /.container -->
   </section>
 
-  <section id="vacancy" class="section">
+  <section data-name="Вакансии" id="vacancy" class="section">
     <div class="container">
       <div class="section__header">
         <h2 class="section__title section__title--underline">Вакансии</h2>
@@ -252,7 +252,7 @@
     <!-- /.container -->
   </section>
 
-  <section id="offer" class="section">
+  <section data-name="Условия проживания" id="offer" class="section">
     <div class="container">
       <div class="section__header">
         <h2 class="section__title section__title--underline">
