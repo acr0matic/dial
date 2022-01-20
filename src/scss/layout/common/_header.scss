@@ -12,6 +12,15 @@
   background-color: rgba($color: #262626, $alpha: 0.73);
 }
 
+.header-scroll {
+  transition: $transition__component;
+
+  &--shadow {
+    background-color: #262626 !important;
+    box-shadow: $shadow-primary;
+  }
+}
+
 .header {
   display: flex;
   align-items: center;

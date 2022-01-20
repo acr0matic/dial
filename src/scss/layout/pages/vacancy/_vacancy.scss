@@ -1,0 +1,49 @@
+#vacancy {
+}
+
+.vacancy {
+  &__item {
+    background-color: $palette-gray;
+    padding: 24px 20px;
+    border-radius: $border-radius--medium;
+  }
+
+  &__title {
+    margin-bottom: 30px;
+    font-family: Furore, sans-serif;
+    font-size: $font-size__text--large;
+    font-weight: $weight-Regular;
+  }
+
+  &__content {
+    line-height: 140%;
+    margin-bottom: 15px;
+  }
+
+  &__salary {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 50px;
+  }
+
+  &__price {
+    margin-top: 5px;
+    font-size: 22px;
+  }
+
+  &__action {
+    display: flex;
+    align-items: center;
+
+    .button {
+      padding-left: 30px;
+      padding-right: 30px;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+  }
+}

@@ -28,3 +28,16 @@ _.forEach(['click', 'touchstart'], evt => {
       _.forEach(widgetIcons, icon => icon.classList.add('widget__link--hide'));
   })
 });
+
+
+const heroBlock = document.getElementById('hero');
+
+let scrollPosition = window.pageYOffset;
+window.addEventListener('scroll',
+  () => {
+    scrollPosition = window.pageYOffset;
+    const heroHeight = heroBlock ? heroBlock.offsetHeight : null;
+
+    if (window.scrollY >= heroHeight) header.classList.add('header-scroll--shadow');
+    else header.classList.remove('header-scroll--shadow')
+  });

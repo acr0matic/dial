@@ -92,7 +92,7 @@
   </div>
 
   <!-- Шапка -->
-  <header id="header">
+  <header id="header" class="header-scroll">
     <div class="container">
       <div class="header">
         <div class="header__logo logo logo--header">
