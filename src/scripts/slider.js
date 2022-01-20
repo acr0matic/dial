@@ -9,9 +9,13 @@ const partners = new Swiper('.slider-partners', {
   coverflowEffect: {
     rotate: 0,
     stretch: 0,
-    depth: 390,
+    depth: 385,
     modifier: 1,
     slideShadows: true
+  },
+
+  autoplay: {
+    delay: 3000,
   },
 
   navigation: {

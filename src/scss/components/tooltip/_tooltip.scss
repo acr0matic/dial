@@ -35,14 +35,42 @@
     }
   }
 
-  &--task {
+  &-employer {
     position: absolute;
-    right: 240px;
-    bottom: 50px;
 
-    @include breakpoint($breakpoint-laptop--large) {
-      right: 140px;
-      bottom: 60px;
+    &--hr {
+      right: 240px;
+      bottom: 80px;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        right: 140px;
+        bottom: 0;
+      }
+    }
+
+    &--hr2 {
+      top: 220px;
+      right: 320px;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        top: 200px;
+        right: 220px;
+      }
+    }
+
+    &--hr3 {
+      top: 180px;
+      left: 50px;
+    }
+
+    &--hr4 {
+      bottom: 160px;
+      left: 130px;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        bottom: 80px;
+        left: 110px;
+      }
     }
   }
 }

@@ -23,3 +23,7 @@ const forms = document.querySelectorAll('form');
 _.forEach(forms, form => new Form(form));
 
 MicroModal.init(modalParams);
+
+AOS.init({
+  once: true,
+});

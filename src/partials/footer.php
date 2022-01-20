@@ -141,6 +141,7 @@
 <script src="scripts/libraries/tippy.min.js"></script>
 <script src="scripts/libraries/imask.js"></script>
 <script src="scripts/libraries/forms.js"></script>
+<script src="scripts/libraries/aos.min.js"></script>
 
 <script src="scripts/base.js"></script>
 <script src="scripts/init.js"></script>

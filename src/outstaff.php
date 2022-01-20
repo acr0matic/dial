@@ -27,8 +27,8 @@
         </div>
         <!-- /.hero__content -->
 
-        <div class="hero__picture hero__picture--big">
-          <img class="hero__image image" src="img/page/outstaff/hero/illustration.png" alt="">
+        <div class="hero__picture hero__picture--big ">
+          <img class="hero__image hero__image--animated image" src="img/page/outstaff/hero/illustration.png" alt="">
         </div>
         <!-- /.hero__picture -->
       </div>
@@ -46,7 +46,7 @@
 
       <div class="explain">
         <div class="row">
-          <div class="col-4">
+          <div class="col-4" data-aos="fade-up" data-aos-delay="0">
             <div class="explain__item">
               <img src="img/page/outstaff/explain/coins.svg" alt="" class="explain__icon image">
               <h3 class="explain__title">
@@ -66,7 +66,7 @@
           </div>
           <!-- /.col-4 -->
 
-          <div class="col-4">
+          <div class="col-4" data-aos="fade-up" data-aos-delay="100">
             <div class="explain__item">
               <img src="img/page/outstaff/explain/case.svg" alt="" class="explain__icon image">
               <h3 class="explain__title">
@@ -86,7 +86,7 @@
           </div>
           <!-- /.col-4 -->
 
-          <div class="col-4">
+          <div class="col-4" data-aos="fade-up" data-aos-delay="200">
             <div class="explain__item">
               <img src="img/page/outstaff/explain/graph.svg" alt="" class="explain__icon image">
               <h3 class="explain__title">

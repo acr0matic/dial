@@ -27,7 +27,7 @@
         <!-- /.hero__content -->
 
         <div class="hero__picture">
-          <img class="hero__image image" src="img/page/main/hero/illustration.png" alt="">
+          <img class="hero__image hero__image--animated image" src="img/page/main/hero/illustration.png" alt="">
         </div>
         <!-- /.hero__picture -->
       </div>
@@ -46,11 +46,14 @@
             </div>
             <!-- /.textblock__picture -->
 
-            <div data-tippy-content="Я сотрудник кадрового отдела, нахожу кандидатов на ваши вакансии, провожу собеседования и координирую сотрудников до места работы" class="tooltip tooltip--animated tooltip--task"></div>
+            <div class="tooltip tooltip--animated tooltip-employer tooltip-employer--hr" data-tippy-content="Я сотрудник кадрового отдела, нахожу кандидатов на ваши вакансии, провожу собеседования и координирую сотрудников до места работы"></div>
+            <div class="tooltip tooltip--animated tooltip-employer tooltip-employer--hr2" data-tippy-content="Я сотрудник кадрового отдела, нахожу кандидатов на ваши вакансии, провожу собеседования и координирую сотрудников до места работы"></div>
+            <div class="tooltip tooltip--animated tooltip-employer tooltip-employer--hr3" data-tippy-content="Я сотрудник кадрового отдела, нахожу кандидатов на ваши вакансии, провожу собеседования и координирую сотрудников до места работы"></div>
+            <div class="tooltip tooltip--animated tooltip-employer tooltip-employer--hr4" data-tippy-content="Я сотрудник кадрового отдела, нахожу кандидатов на ваши вакансии, провожу собеседования и координирую сотрудников до места работы"></div>
           </div>
           <!-- /.col-7 -->
 
-          <div class="col-5">
+          <div class="col-5 ps-5 ps-xxl-0">
             <div class="section__header">
               <h2 class="section__title section__title--underline">
                 Какие задачи мы
@@ -119,7 +122,7 @@
         <!-- /.section__header -->
 
         <div class="row">
-          <div class="col-6 step__col">
+          <div class="col-6 step__col" data-aos="fade-up" data-aos-delay="0">
             <div class="step__item card">
               <div class="step__content">
                 <h3 class="step__title">Заявка</h3>
@@ -139,7 +142,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-6 step__col">
+          <div class="col-6 step__col" data-aos="fade-up" data-aos-delay="100">
             <div class="step__item card">
               <div class="step__content">
                 <h3 class="step__title">Встреча</h3>
@@ -158,7 +161,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-6 step__col">
+          <div class="col-6 step__col" data-aos="fade-up" data-aos-delay="0">
             <div class="step__item card">
               <div class="step__content">
                 <h3 class="step__title">Подписание договора</h3>
@@ -177,7 +180,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-6 step__col">
+          <div class="col-6 step__col" data-aos="fade-up" data-aos-delay="100">
             <div class="step__item card">
               <div class="step__content">
                 <h3 class="step__title">Заявка на количество людей</h3>
@@ -311,7 +314,7 @@
 
       <div class="advantage">
         <div class="row">
-          <div class="col-4">
+          <div class="col-4" data-aos="fade-up" data-aos-delay="0">
             <div class="advantage__item">
               <img src="img/page/main/advantage/chat.svg" alt="" class="advantage__icon image">
               <h3 class="advantage__title">
@@ -331,7 +334,7 @@
           </div>
           <!-- /.col-4 -->
 
-          <div class="col-4">
+          <div class="col-4" data-aos="fade-up" data-aos-delay="100">
             <div class="advantage__item">
               <img src="img/page/main/advantage/employer.svg" alt="" class="advantage__icon image">
               <h3 class="advantage__title">
@@ -351,7 +354,7 @@
           </div>
           <!-- /.col-4 -->
 
-          <div class="col-4">
+          <div class="col-4" data-aos="fade-up" data-aos-delay="200">
             <div class="advantage__item">
               <img src="img/page/main/advantage/time.svg" alt="" class="advantage__icon image">
               <h3 class="advantage__title">
@@ -470,7 +473,7 @@
 
       <div class="feedback">
         <div class="row">
-          <div class="col-6 mb-4">
+          <div class="col-6 mb-4" data-aos="fade-up" data-aos-delay="0">
             <div class="feedback__item card">
               <div class="feedback__content">
                 <p class="feedback__text">
@@ -496,7 +499,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-6 mb-4">
+          <div class="col-6 mb-4" data-aos="fade-up" data-aos-delay="100">
             <div class="feedback__item card">
               <div class="feedback__content">
                 <p class="feedback__text">
@@ -522,7 +525,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-6">
+          <div class="col-6" data-aos="fade-up" data-aos-delay="0">
             <div class="feedback__item card">
               <div class="feedback__content">
                 <p class="feedback__text">
@@ -548,7 +551,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-6">
+          <div class="col-6" data-aos="fade-up" data-aos-delay="100">
             <div class="feedback__item card">
               <div class="feedback__content">
                 <p class="feedback__text">

@@ -1,4 +1,5 @@
-$scrollbar__bg: #ffffff;
-$scrollbar__contoller: #de4848;
+$scrollbar__bg: $palette-gray;
+$scrollbar__contoller: #dc9d62;
+$scrollbar__contoller--hover: #b66b26;
 
 @import "scrollbar";
