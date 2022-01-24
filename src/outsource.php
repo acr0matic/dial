@@ -23,7 +23,7 @@
 
           <div class="hero__action">
             <button data-micromodal-trigger="modal-callback" class="button button-primary me-2">Подобрать персонал</button>
-            <button class="button button-outline">Вакансии</button>
+            <button onclick="window.location.href='applicant.php#vacancy'" class="button button-outline">Вакансии</button>
           </div>
           <!-- /.hero__action -->
         </div>
@@ -193,7 +193,7 @@
               </p>
 
               <div class="textblock__action">
-                <button class="textblock__button button button-primary">Подобрать персонал</button>
+                <button data-micromodal-trigger="modal-callback" class="textblock__button button button-primary">Подобрать персонал</button>
               </div>
               <!-- /.textblock__action -->
             </div>

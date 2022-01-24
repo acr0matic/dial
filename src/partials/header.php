@@ -96,7 +96,7 @@
     <div class="container">
       <div class="header">
         <div class="header__logo logo logo--header">
-          <a href="">
+          <a href="index.php">
             <img src="img/logo.svg" alt="" class="logo__image">
           </a>
         </div>
@@ -105,11 +105,11 @@
         <div class="header__nav nav nav--header">
           <nav class="nav__primary">
             <ul class="nav__list mb-2">
-              <li class="nav__item"><a class="nav__link" href="">Главная</a></li>
-              <li class="nav__item"><a class="nav__link" href="">Аутстафинг</a></li>
-              <li class="nav__item"><a class="nav__link" href="">Аутсорсинг</a></li>
-              <li class="nav__item"><a class="nav__link" href="">Соискателям</a></li>
-              <li class="nav__item"><a class="nav__link" href="">Контакты</a></li>
+              <li class="nav__item"><a class="nav__link" href="index.php">Главная</a></li>
+              <li class="nav__item"><a class="nav__link" href="outstaff.php">Аутстафинг</a></li>
+              <li class="nav__item"><a class="nav__link" href="outsource.php">Аутсорсинг</a></li>
+              <li class="nav__item"><a class="nav__link" href="applicant.php">Соискателям</a></li>
+              <li class="nav__item"><a class="nav__link" href="contact.php">Контакты</a></li>
             </ul>
           </nav>
           <!-- /.nav__primary -->

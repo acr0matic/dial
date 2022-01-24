@@ -34,7 +34,7 @@
     <!-- /.container -->
   </section>
 
-  <section data-name="Заявка" id="callback" class="section section--last">
+  <section id="callback" class="section section--last">
     <div class="container">
       <div class="callback">
         <div class="row">

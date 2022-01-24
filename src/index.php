@@ -20,7 +20,7 @@
 
           <div class="hero__action">
             <button data-micromodal-trigger="modal-callback" class="button button-primary me-2">Подобрать персонал</button>
-            <button class="button button-outline">Вакансии</button>
+            <button onclick="window.location.href='applicant.php#vacancy'" class="button button-outline">Вакансии</button>
           </div>
           <!-- /.hero__action -->
         </div>
@@ -226,7 +226,7 @@
               </p>
 
               <div class="service__action">
-                <button class="service__button button button-outline">Подробнее</button>
+                <button onclick="window.location.href='outstaff.php'" class="service__button button button-outline">Подробнее</button>
                 <img class="service__icon" src="img/page/main/service/outstaff.svg" alt="">
               </div>
               <!-- /.service__action -->
@@ -255,7 +255,7 @@
               </p>
 
               <div class="service__action">
-                <button class="service__button button button-outline">Подробнее</button>
+                <button onclick="window.location.href='outsource.php'" class="service__button button button-outline">Подробнее</button>
                 <img class="service__icon" src="img/page/main/service/outsource.svg" alt="">
               </div>
               <!-- /.service__action -->

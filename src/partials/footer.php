@@ -5,7 +5,7 @@
       <div class="row">
         <div class="col-3">
           <div class="footer__logo logo logo--footer">
-            <a href="">
+            <a href="index.php">
               <img src="img/logo.svg" alt="" class="logo__image">
             </a>
           </div>
@@ -17,14 +17,14 @@
           <div class="row">
             <div class="col-6">
               <nav class="nav nav--footer">
-                <a href="" class="nav__link nav__link--main">Работодателю</a>
+                <a class="nav__link nav__link--main">Работодателю</a>
                 <ul class="nav__list">
                   <li class="nav__item">
-                    <a href="" class="nav__link">Аутстаффинг</a>
+                    <a href="outstaff.php" class="nav__link">Аутстаффинг</a>
                   </li>
 
                   <li class="nav__item">
-                    <a href="" class="nav__link">Аутсорсинг</a>
+                    <a href="outsource.php" class="nav__link">Аутсорсинг</a>
                   </li>
                 </ul>
               </nav>
@@ -33,10 +33,10 @@
 
             <div class="col-6">
               <nav class="nav nav--footer">
-                <a href="" class="nav__link nav__link--main">Соискателю</a>
+                <a href="applicant.php" class="nav__link nav__link--main">Соискателю</a>
                 <ul class="nav__list">
                   <li class="nav__item">
-                    <a href="" class="nav__link">Вакансии</a>
+                    <a href="applicant.php#vacancy" class="nav__link">Вакансии</a>
                   </li>
                 </ul>
               </nav>
