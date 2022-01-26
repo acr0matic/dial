@@ -37,6 +37,10 @@
   }
 
   &--header {
+    @include breakpoint($breakpoint-tablet--large) {
+      display: none;
+    }
+
     .nav__item {
       &:not(:last-child) {
         margin-right: 20px;
@@ -54,12 +58,21 @@
       display: block;
       font-weight: $weight-Regular;
 
+      @include breakpoint($breakpoint-tablet--large) {
+        font-size: 16px;
+      }
+
       &--main {
         margin-bottom: 15px;
         padding-top: 0;
 
         font-size: $font-size__text--large;
         font-weight: $weight-Bold;
+
+        @include breakpoint($breakpoint-tablet--large) {
+          margin-bottom: 5px;
+          font-size: 18px;
+        }
       }
     }
   }

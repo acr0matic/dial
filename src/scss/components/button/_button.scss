@@ -13,4 +13,9 @@ $focus: #b66b26;
   outline: none;
 
   transition: $transition__component;
+
+  @include breakpoint($breakpoint-tablet--large) {
+    padding: 16px 25px;
+    font-size: 14px;
+  }
 }

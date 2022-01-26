@@ -5,6 +5,14 @@
   &__picture {
     margin-top: 85px;
     max-width: 660px;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-top: 45px;
+      margin-left: auto;
+      margin-right: auto;
+
+      max-width: 300px;
+    }
   }
 
   &__content {
@@ -16,6 +24,9 @@
   }
 
   &__list {
+    .list__item {
+      text-align: justify;
+    }
   }
 
   &__action {

@@ -3,8 +3,16 @@
   margin-top: $section-padding;
   overflow: hidden;
 
+  @include breakpoint($breakpoint-tablet--large) {
+    margin-top: 70px;
+  }
+
   .section__wrapper {
     width: 50%;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      width: 100%;
+    }
 
     &::after {
       content: "";
@@ -15,6 +23,17 @@
       height: 100%;
     }
 
+    &::before {
+      @include breakpoint($breakpoint-tablet--large) {
+        content: "";
+        position: absolute;
+        top: 0;
+
+        width: 100%;
+        height: 100%;
+      }
+    }
+
     // Первая колонка
     &:first-child {
       z-index: 1;
@@ -23,6 +42,13 @@
       &::after {
         left: -100%;
         background-color: map($palette-blue, "darken");
+      }
+
+      &::before {
+        @include breakpoint($breakpoint-tablet--large) {
+          right: -100%;
+          background-color: map($palette-blue, "darken");
+        }
       }
 
       .section__image {
@@ -64,9 +90,20 @@
 
       box-shadow: -5px 0 30px rgba(0, 0, 0, 0.35);
 
+      @include breakpoint($breakpoint-tablet--large) {
+        padding-left: 0;
+      }
+
       &::after {
         right: -100%;
         background-color: map($palette-blue, "regular");
+      }
+
+      &::before {
+        @include breakpoint($breakpoint-tablet--large) {
+          left: -100%;
+          background-color: map($palette-blue, "regular");
+        }
       }
 
       .section__image {
@@ -83,6 +120,10 @@
             right: unset;
             left: 50px;
             width: 350px;
+          }
+
+          @include breakpoint($breakpoint-laptop--large) {
+            display: none;
           }
         }
 
@@ -116,6 +157,10 @@
   display: flex;
   justify-content: space-between;
 
+  @include breakpoint($breakpoint-tablet--large) {
+    flex-wrap: wrap;
+  }
+
   &__col {
     position: relative;
     z-index: 5;
@@ -127,6 +172,10 @@
 
     @include breakpoint($breakpoint-laptop--large) {
       padding: 110px 0;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      padding: 65px 0;
     }
   }
 
@@ -156,6 +205,11 @@
 
     @include breakpoint($breakpoint-laptop--large) {
       left: 280px;
+    }
+
+    @include breakpoint($breakpoint-laptop--large) {
+      right: 10px;
+      left: initial;
     }
   }
 }

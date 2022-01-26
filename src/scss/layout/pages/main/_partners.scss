@@ -1,10 +1,13 @@
 #partners {
-
 }
 
 .partners {
   &__slider {
     width: 85%;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      width: 100%;
+    }
   }
 
   &__picture {

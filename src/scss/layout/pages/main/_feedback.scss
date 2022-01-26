@@ -1,5 +1,4 @@
 #feedback {
-
 }
 
 .feedback {
@@ -9,6 +8,12 @@
 
   &__content {
     margin-bottom: 20px;
+  }
+
+  &__text {
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: $font-size__text--regular - 2;
+    }
   }
 
   &__footer {
@@ -24,6 +29,13 @@
 
     border-radius: 50%;
     overflow: hidden;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      width: 60px;
+      height: 60px;
+
+      margin-right: 20px;
+    }
   }
 
   &__info {
@@ -31,10 +43,18 @@
     flex-direction: column;
 
     font-weight: $weight-Bold;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: 16px;
+    }
   }
 
   &__name {
     margin-bottom: 10px;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-bottom: 5px;
+    }
   }
 
   &__company {

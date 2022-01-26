@@ -39,21 +39,21 @@
   <section data-name="Задачи" id="textblock" class="section">
     <div class="container">
       <div class="textblock">
-        <div class="row">
-          <div class="col-7 position-relative">
+        <div class="row flex-column-reverse flex-lg-row">
+          <div class="col-12 col-lg-7 position-relative">
             <div class="textblock__picture">
               <img src="img/page/main/textblock/picture.png" alt="" class="textblock__image image">
             </div>
             <!-- /.textblock__picture -->
 
             <div class="tooltip tooltip--animated tooltip-employer tooltip-employer--hr" data-tippy-content="Я сотрудник кадрового отдела, нахожу кандидатов на ваши вакансии, провожу собеседования и координирую сотрудников до места работы"></div>
-            <div class="tooltip tooltip--animated tooltip-employer tooltip-employer--hr2" data-tippy-content="Я сотрудник кадрового отдела, нахожу кандидатов на ваши вакансии, провожу собеседования и координирую сотрудников до места работы"></div>
-            <div class="tooltip tooltip--animated tooltip-employer tooltip-employer--hr3" data-tippy-content="Я сотрудник кадрового отдела, нахожу кандидатов на ваши вакансии, провожу собеседования и координирую сотрудников до места работы"></div>
-            <div class="tooltip tooltip--animated tooltip-employer tooltip-employer--hr4" data-tippy-content="Я сотрудник кадрового отдела, нахожу кандидатов на ваши вакансии, провожу собеседования и координирую сотрудников до места работы"></div>
+            <div class="tooltip tooltip--animated tooltip-employer tooltip-employer--hr2" data-tippy-content="А я занимаюсь рекламой, размещаю вакансии на самых разных площадках, чтобы соискатели находили самые лучшие вакансии!"></div>
+            <div class="tooltip tooltip--animated tooltip-employer tooltip-employer--hr3" data-tippy-content="Привет! А я менеджер объекта, в мои обязанности входит: составление графика работы и контроль его исполнения; ведение табелей учета рабочего времени и контроль качества работы персонала!"></div>
+            <div class="tooltip tooltip--animated tooltip-employer tooltip-employer--hr4" data-tippy-content="А я сотрудник офиса! Я веду деловые переписки с представителями объектов и решаю все вытекающие вопросы. "></div>
           </div>
           <!-- /.col-7 -->
 
-          <div class="col-5 ps-5 ps-xxl-0">
+          <div class="col-12 col-lg-5 ps-lg-5 ps-xxl-0">
             <div class="section__header">
               <h2 class="section__title section__title--underline">
                 Какие задачи мы
@@ -121,89 +121,94 @@
         </div>
         <!-- /.section__header -->
 
-        <div class="row">
-          <div class="col-6 step__col" data-aos="fade-up" data-aos-delay="0">
-            <div class="step__item card">
-              <div class="step__content">
-                <h3 class="step__title">Заявка</h3>
-                <p class="step__description">
-                  Вы оставляете заявку
-                  о сотрудничестве на нашем сайте - мы свяжемся с вами в удобное для вас время, чтобы уточнить детали - сколько персонала вам требуется, под какие задачи и прочее
-                </p>
-              </div>
-              <!-- /.step__content -->
+        <div class="swiper swiper--mobile slider-step">
+          <div class="swiper-wrapper row">
+            <div class="swiper-slide col-12 col-lg-6 step__col">
+              <div class="step__item card">
+                <div class="step__content">
+                  <h3 class="step__title">Заявка</h3>
+                  <p class="step__description">
+                    Вы оставляете заявку
+                    о сотрудничестве на нашем сайте - мы свяжемся с вами в удобное для вас время, чтобы уточнить детали - сколько персонала вам требуется, под какие задачи и прочее
+                  </p>
+                </div>
+                <!-- /.step__content -->
 
-              <div class="step__picture step__picture--first">
-                <img src="img/page/main/step/1.png" alt="" class="step__image image">
+                <div class="step__picture step__picture--first">
+                  <img src="img/page/main/step/1.png" alt="" class="step__image image">
+                </div>
+                <!-- /.step__picture -->
               </div>
-              <!-- /.step__picture -->
+              <!-- /.step__item -->
             </div>
-            <!-- /.step__item -->
-          </div>
-          <!-- /.col-6 -->
+            <!-- /.col-6 -->
 
-          <div class="col-6 step__col" data-aos="fade-up" data-aos-delay="100">
-            <div class="step__item card">
-              <div class="step__content">
-                <h3 class="step__title">Встреча</h3>
-                <p class="step__description">
-                  Встретимся с Вами в любом удобном, для вас месте для обсуждения всех деталей проекта
-                </p>
-              </div>
-              <!-- /.step__content -->
+            <div class="swiper-slide col-12 col-lg-6 step__col">
+              <div class="step__item card">
+                <div class="step__content">
+                  <h3 class="step__title">Встреча</h3>
+                  <p class="step__description">
+                    Встретимся с Вами в любом удобном, для вас месте для обсуждения всех деталей проекта
+                  </p>
+                </div>
+                <!-- /.step__content -->
 
-              <div class="step__picture step__picture--second">
-                <img src="img/page/main/step/2.png" alt="" class="step__image image">
+                <div class="step__picture step__picture--second">
+                  <img src="img/page/main/step/2.png" alt="" class="step__image image">
+                </div>
+                <!-- /.step__picture -->
               </div>
-              <!-- /.step__picture -->
+              <!-- /.step__item -->
             </div>
-            <!-- /.step__item -->
-          </div>
-          <!-- /.col-6 -->
+            <!-- /.col-6 -->
 
-          <div class="col-6 step__col" data-aos="fade-up" data-aos-delay="0">
-            <div class="step__item card">
-              <div class="step__content">
-                <h3 class="step__title">Подписание договора</h3>
-                <p class="step__description">
-                  Составим индивидуальный договор и подпишем его в двухстороннем порядке
-                </p>
-              </div>
-              <!-- /.step__content -->
+            <div class="swiper-slide col-12 col-lg-6 step__col">
+              <div class="step__item card">
+                <div class="step__content">
+                  <h3 class="step__title">Подписание договора</h3>
+                  <p class="step__description">
+                    Составим индивидуальный договор и подпишем его в двухстороннем порядке
+                  </p>
+                </div>
+                <!-- /.step__content -->
 
-              <div class="step__picture step__picture--third">
-                <img src="img/page/main/step/3.png" alt="" class="step__image image">
+                <div class="step__picture step__picture--third">
+                  <img src="img/page/main/step/3.png" alt="" class="step__image image">
+                </div>
+                <!-- /.step__picture -->
               </div>
-              <!-- /.step__picture -->
+              <!-- /.step__item -->
             </div>
-            <!-- /.step__item -->
-          </div>
-          <!-- /.col-6 -->
+            <!-- /.col-6 -->
 
-          <div class="col-6 step__col" data-aos="fade-up" data-aos-delay="100">
-            <div class="step__item card">
-              <div class="step__content">
-                <h3 class="step__title">Заявка на количество людей</h3>
-                <p class="step__description">
-                  Мы приступаем к набору <br>
-                  сотрудников, через 3 дня после <br>
-                  подписания договора предоставляем <br>
-                  первых работников для <br>
-                  собеседования
-                </p>
-              </div>
-              <!-- /.step__content -->
+            <div class="swiper-slide col-12 col-lg-6 step__col">
+              <div class="step__item card">
+                <div class="step__content">
+                  <h3 class="step__title">Заявка на количество людей</h3>
+                  <p class="step__description">
+                    Мы приступаем к набору <br>
+                    сотрудников, через 3 дня после <br>
+                    подписания договора предоставляем <br>
+                    первых работников для <br>
+                    собеседования
+                  </p>
+                </div>
+                <!-- /.step__content -->
 
-              <div class="step__picture step__picture--fourth">
-                <img src="img/page/main/step/4.png" alt="" class="step__image image">
+                <div class="step__picture step__picture--fourth">
+                  <img src="img/page/main/step/4.png" alt="" class="step__image image">
+                </div>
+                <!-- /.step__picture -->
               </div>
-              <!-- /.step__picture -->
+              <!-- /.step__item -->
             </div>
-            <!-- /.step__item -->
+            <!-- /.col-6 -->
           </div>
-          <!-- /.col-6 -->
+          <!-- /.row -->
+
+          <div class="swiper-pagination"></div>
         </div>
-        <!-- /.row -->
+        <!-- /.swiper swiper--mobile -->
       </div>
       <!-- /.step -->
     </div>
@@ -286,7 +291,7 @@
         <!-- /.about__logo -->
 
         <div class="row">
-          <div class="col-7 col-xxl-6">
+          <div class="col-12 col-lg-7 col-xxl-6">
             <p class="about__description">
               Мы специализируемся на предоставлении услуг аутстафинга и аутсорсинга, организации бригад работников для складской логистики, общественного питания, торговли, производства и оперативном управлении этими бригадами.
             </p>
@@ -314,7 +319,7 @@
 
       <div class="advantage">
         <div class="row">
-          <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+          <div class="col-12 col-lg-4 mb-4 mb-lg-5" data-aos="fade-up">
             <div class="advantage__item">
               <img src="img/page/main/advantage/chat.svg" alt="" class="advantage__icon image">
               <h3 class="advantage__title">
@@ -334,7 +339,7 @@
           </div>
           <!-- /.col-4 -->
 
-          <div class="col-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-12 col-lg-4 mb-4 mb-lg-5" data-aos="fade-up">
             <div class="advantage__item">
               <img src="img/page/main/advantage/employer.svg" alt="" class="advantage__icon image">
               <h3 class="advantage__title">
@@ -354,7 +359,7 @@
           </div>
           <!-- /.col-4 -->
 
-          <div class="col-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-12 col-lg-4" data-aos="fade-up">
             <div class="advantage__item">
               <img src="img/page/main/advantage/time.svg" alt="" class="advantage__icon image">
               <h3 class="advantage__title">
@@ -395,7 +400,7 @@
               <div class="swiper-slide">
                 <div class="partners__item">
                   <div class="partners__picture">
-                    <img class="partners__image image" src="img/page/main/partners/LG.jpg" alt="">
+                    <img class="partners__image image" src="img/page/main/partners/1.jpg" alt="">
                   </div>
                   <!-- /.partners__picture -->
                 </div>
@@ -406,7 +411,7 @@
               <div class="swiper-slide">
                 <div class="partners__item">
                   <div class="partners__picture">
-                    <img class="partners__image image" src="img/page/main/partners/LG.jpg" alt="">
+                    <img class="partners__image image" src="img/page/main/partners/2.jpg" alt="">
                   </div>
                   <!-- /.partners__picture -->
                 </div>
@@ -417,7 +422,7 @@
               <div class="swiper-slide">
                 <div class="partners__item">
                   <div class="partners__picture">
-                    <img class="partners__image image" src="img/page/main/partners/LG.jpg" alt="">
+                    <img class="partners__image image" src="img/page/main/partners/3.jpg" alt="">
                   </div>
                   <!-- /.partners__picture -->
                 </div>
@@ -428,7 +433,7 @@
               <div class="swiper-slide">
                 <div class="partners__item">
                   <div class="partners__picture">
-                    <img class="partners__image image" src="img/page/main/partners/LG.jpg" alt="">
+                    <img class="partners__image image" src="img/page/main/partners/4.jpg" alt="">
                   </div>
                   <!-- /.partners__picture -->
                 </div>
@@ -439,7 +444,7 @@
               <div class="swiper-slide">
                 <div class="partners__item">
                   <div class="partners__picture">
-                    <img class="partners__image image" src="img/page/main/partners/LG.jpg" alt="">
+                    <img class="partners__image image" src="img/page/main/partners/5.jpg" alt="">
                   </div>
                   <!-- /.partners__picture -->
                 </div>
@@ -472,112 +477,117 @@
       <!-- /.section__header -->
 
       <div class="feedback">
-        <div class="row">
-          <div class="col-6 mb-4" data-aos="fade-up" data-aos-delay="0">
-            <div class="feedback__item card">
-              <div class="feedback__content">
-                <p class="feedback__text">
-                  Много где оставляли запрос на набор персонала - все доски объявлений, но толку никакого. Тут нам всего за 5 дней подобрали 30 фасовщиков. Что приятно - менеджер Александр все время держал в курсе набора помогал с документами.
-                </p>
-              </div>
-              <!-- /.feedback__content -->
-
-              <div class="feedback__footer">
-                <div class="feedback__avatar">
-                  <img src="img/page/main/feedback/1.jpg" alt="" class="feedback__image image">
+        <div class="swiper swiper--mobile slider-feedback">
+          <div class="swiper-wrapper row">
+            <div class="swiper-slide col-12 col-lg-6 mb-4">
+              <div class="feedback__item card">
+                <div class="feedback__content">
+                  <p class="feedback__text">
+                    Много где оставляли запрос на набор персонала - все доски объявлений, но толку никакого. Тут нам всего за 5 дней подобрали 30 фасовщиков. Что приятно - менеджер Александр все время держал в курсе набора помогал с документами.
+                  </p>
                 </div>
+                <!-- /.feedback__content -->
 
-                <div class="feedback__info">
-                  <span class="feedback__name">Захаренко Алексей</span>
-                  <span class="feedback__company">ООО «КОМАЛЬФА»</span>
+                <div class="feedback__footer">
+                  <div class="feedback__avatar">
+                    <img src="img/page/main/feedback/1.jpg" alt="" class="feedback__image image">
+                  </div>
+
+                  <div class="feedback__info">
+                    <span class="feedback__name">Захаренко Алексей</span>
+                    <span class="feedback__company">ООО «КОМАЛЬФА»</span>
+                  </div>
+                  <!-- /.feedback__info -->
                 </div>
-                <!-- /.feedback__info -->
+                <!-- /.feedback__footer -->
               </div>
-              <!-- /.feedback__footer -->
+              <!-- /.feedback__item -->
             </div>
-            <!-- /.feedback__item -->
-          </div>
-          <!-- /.col-6 -->
+            <!-- /.col-6 -->
 
-          <div class="col-6 mb-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="feedback__item card">
-              <div class="feedback__content">
-                <p class="feedback__text">
-                  Под Новый Год был сезонный загруз. Требовался персонал, но оформлять его к себе в фирму было слишком проблематично из-за бумажной волокиты. Очень быстро набрали сотрудников и подготовили поставку вовремя.
-                </p>
-              </div>
-              <!-- /.feedback__content -->
-
-              <div class="feedback__footer">
-                <div class="feedback__avatar">
-                  <img src="img/page/main/feedback/2.jpg" alt="" class="feedback__image image">
+            <div class="swiper-slide col-12 col-lg-6 mb-4">
+              <div class="feedback__item card">
+                <div class="feedback__content">
+                  <p class="feedback__text">
+                    Под Новый Год был сезонный загруз. Требовался персонал, но оформлять его к себе в фирму было слишком проблематично из-за бумажной волокиты. Очень быстро набрали сотрудников и подготовили поставку вовремя.
+                  </p>
                 </div>
+                <!-- /.feedback__content -->
 
-                <div class="feedback__info">
-                  <span class="feedback__name">Коротков Максим</span>
-                  <span class="feedback__company">ООО «Алмаз»</span>
+                <div class="feedback__footer">
+                  <div class="feedback__avatar">
+                    <img src="img/page/main/feedback/2.jpg" alt="" class="feedback__image image">
+                  </div>
+
+                  <div class="feedback__info">
+                    <span class="feedback__name">Коротков Максим</span>
+                    <span class="feedback__company">ООО «Алмаз»</span>
+                  </div>
+                  <!-- /.feedback__info -->
                 </div>
-                <!-- /.feedback__info -->
+                <!-- /.feedback__footer -->
               </div>
-              <!-- /.feedback__footer -->
+              <!-- /.feedback__item -->
             </div>
-            <!-- /.feedback__item -->
-          </div>
-          <!-- /.col-6 -->
+            <!-- /.col-6 -->
 
-          <div class="col-6" data-aos="fade-up" data-aos-delay="0">
-            <div class="feedback__item card">
-              <div class="feedback__content">
-                <p class="feedback__text">
-                  В какой то момент осознала, что почти все время уходит на набор персонала, вместо развития фирмы. Из-за этого начали потихоньку падать объемы продаж. Открыла для себя отличный вариант - аутстаффинг. Освободил меня от лишней головной боли. Спасибо.
-                </p>
-              </div>
-              <!-- /.feedback__content -->
-
-              <div class="feedback__footer">
-                <div class="feedback__avatar">
-                  <img src="img/page/main/feedback/3.jpg" alt="" class="feedback__image image">
+            <div class="swiper-slide col-12 col-lg-6">
+              <div class="feedback__item card">
+                <div class="feedback__content">
+                  <p class="feedback__text">
+                    В какой то момент осознала, что почти все время уходит на набор персонала, вместо развития фирмы. Из-за этого начали потихоньку падать объемы продаж. Открыла для себя отличный вариант - аутстаффинг. Освободил меня от лишней головной боли. Спасибо.
+                  </p>
                 </div>
+                <!-- /.feedback__content -->
 
-                <div class="feedback__info">
-                  <span class="feedback__name">Шельянова Ольга</span>
-                  <span class="feedback__company">ООО «Олт»</span>
+                <div class="feedback__footer">
+                  <div class="feedback__avatar">
+                    <img src="img/page/main/feedback/3.jpg" alt="" class="feedback__image image">
+                  </div>
+
+                  <div class="feedback__info">
+                    <span class="feedback__name">Шельянова Ольга</span>
+                    <span class="feedback__company">ООО «Олт»</span>
+                  </div>
+                  <!-- /.feedback__info -->
                 </div>
-                <!-- /.feedback__info -->
+                <!-- /.feedback__footer -->
               </div>
-              <!-- /.feedback__footer -->
+              <!-- /.feedback__item -->
             </div>
-            <!-- /.feedback__item -->
-          </div>
-          <!-- /.col-6 -->
+            <!-- /.col-6 -->
 
-          <div class="col-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="feedback__item card">
-              <div class="feedback__content">
-                <p class="feedback__text">
-                  Когда юристы показали мне сколько уходит на налоговые вычеты - я была в ужасе. Особенно в разгаре локдауна это серьезно било по бюджету. Обратились в Диал за аутстаффингом. Персонал очень достойный, а главное мы решили основной запрос - легально сократили выплаты.
-                </p>
-              </div>
-              <!-- /.feedback__content -->
-
-              <div class="feedback__footer">
-                <div class="feedback__avatar">
-                  <img src="img/page/main/feedback/4.jpg" alt="" class="feedback__image image">
+            <div class="swiper-slide col-12 col-lg-6">
+              <div class="feedback__item card">
+                <div class="feedback__content">
+                  <p class="feedback__text">
+                    Когда юристы показали мне сколько уходит на налоговые вычеты - я была в ужасе. Особенно в разгаре локдауна это серьезно било по бюджету. Обратились в Диал за аутстаффингом. Персонал очень достойный, а главное мы решили основной запрос - легально сократили выплаты.
+                  </p>
                 </div>
+                <!-- /.feedback__content -->
 
-                <div class="feedback__info">
-                  <span class="feedback__name">Линдер Юлия</span>
-                  <span class="feedback__company">ООО «Москва»</span>
+                <div class="feedback__footer">
+                  <div class="feedback__avatar">
+                    <img src="img/page/main/feedback/4.jpg" alt="" class="feedback__image image">
+                  </div>
+
+                  <div class="feedback__info">
+                    <span class="feedback__name">Линдер Юлия</span>
+                    <span class="feedback__company">ООО «Москва»</span>
+                  </div>
+                  <!-- /.feedback__info -->
                 </div>
-                <!-- /.feedback__info -->
+                <!-- /.feedback__footer -->
               </div>
-              <!-- /.feedback__footer -->
+              <!-- /.feedback__item -->
             </div>
-            <!-- /.feedback__item -->
+            <!-- /.col-6 -->
           </div>
-          <!-- /.col-6 -->
+          <!-- /.row -->
+
+          <div class="swiper-pagination"></div>
         </div>
-        <!-- /.row -->
+        <!-- /.swiper swiper--mobile slider-feedback -->
       </div>
       <!-- /.step -->
     </div>
@@ -594,7 +604,7 @@
           <!-- /.section__header -->
 
           <div class="row">
-            <div class="col-12 col-md-6 mb-3">
+            <div class="col-12 col-md-6 mb-2 mb-lg-3">
               <div class="handorgel handorgel--block">
                 <h3 class="handorgel__header">
                   <button class="handorgel__header__button">
@@ -619,7 +629,7 @@
             </div>
             <!-- /.col-6 -->
 
-            <div class="col-12 col-md-6 mb-3">
+            <div class="col-12 col-md-6 mb-2 mb-lg-3">
               <div class="handorgel handorgel--block">
                 <h3 class="handorgel__header">
                   <button class="handorgel__header__button">
@@ -644,7 +654,7 @@
             </div>
             <!-- /.col-6 -->
 
-            <div class="col-12 col-md-6 mb-3">
+            <div class="col-12 col-md-6 mb-2 mb-lg-3">
               <div class="handorgel handorgel--block">
                 <h3 class="handorgel__header">
                   <button class="handorgel__header__button">
@@ -669,7 +679,7 @@
             </div>
             <!-- /.col-6 -->
 
-            <div class="col-12 col-md-6 mb-3">
+            <div class="col-12 col-md-6 mb-2 mb-lg-3">
               <div class="handorgel handorgel--block">
                 <h3 class="handorgel__header">
                   <button class="handorgel__header__button">
@@ -694,7 +704,7 @@
             </div>
             <!-- /.col-6 -->
 
-            <div class="col-12 col-md-6 mb-3">
+            <div class="col-12 col-md-6 mb-2 mb-lg-3">
               <div class="handorgel handorgel--block">
                 <h3 class="handorgel__header">
                   <button class="handorgel__header__button">
@@ -763,7 +773,7 @@
     <div class="container">
       <div class="callback">
         <div class="row">
-          <div class="col-6">
+          <div class="col-12 col-lg-6 mb-5 mb-lg-0">
             <div class="section__header">
               <h2 class="section__title section__title--underline">
                 Оставьте заявку
@@ -797,7 +807,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-6">
+          <div class="col-12 col-lg-6">
             <div class="callback__picture">
               <img src="img/page/main/callback/picture.png" alt="" class="callback__image image">
             </div>

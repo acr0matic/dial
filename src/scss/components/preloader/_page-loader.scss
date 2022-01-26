@@ -35,9 +35,8 @@
     animation-timing-function: linear;
 
     @include breakpoint($breakpoint-mobile--large) {
-      svg {
-        width: 120px;
-      }
+      width: 120px;
+      height: 120px;
     }
   }
 
@@ -52,7 +51,7 @@
     transform: translate(-50%, -50%);
 
     @include breakpoint($breakpoint-mobile--large) {
-      width: 120px;
+      width: 80px;
     }
 
     img {

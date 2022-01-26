@@ -14,6 +14,14 @@
     @include breakpoint($breakpoint-laptop--large) {
       font-size: $font-size__title--small - 8;
     }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: 20px;
+
+      br {
+        display: none;
+      }
+    }
   }
 
   &__subtitle {
@@ -22,6 +30,12 @@
 
     @include breakpoint($breakpoint-laptop--large) {
       font-size: $font-size__text--regular;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      br {
+        display: none;
+      }
     }
   }
 }

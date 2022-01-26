@@ -3,7 +3,7 @@
   <div class="container">
     <div class="footer">
       <div class="row">
-        <div class="col-3">
+        <div class="col-12 col-lg-3 mb-5 mb-lg-0">
           <div class="footer__logo logo logo--footer">
             <a href="index.php">
               <img src="img/logo.svg" alt="" class="logo__image">
@@ -15,7 +15,7 @@
 
         <div class="col-6">
           <div class="row">
-            <div class="col-6">
+            <div class="col-12 col-lg-6 mb-4 mb-lg-0">
               <nav class="nav nav--footer">
                 <a class="nav__link nav__link--main">Работодателю</a>
                 <ul class="nav__list">
@@ -31,7 +31,7 @@
             </div>
             <!-- /.col-6 -->
 
-            <div class="col-6">
+            <div class="col-12 col-lg-6">
               <nav class="nav nav--footer">
                 <a href="applicant.php" class="nav__link nav__link--main">Соискателю</a>
                 <ul class="nav__list">
@@ -47,7 +47,7 @@
         </div>
         <!-- /.col-6 -->
 
-        <div class="col-3 col-xxl-2 offset-xxl-1">
+        <div class="col-6 col-lg-3 col-xxl-2 offset-xxl-1">
           <div class="footer__contact">
             <a href="tel:+79671014433" class="phone mb-2 link">+7 (967) 101 44 33</a>
             <a href="mailto:dial@site.ru" class="email mb-2 link">Dial@site.ru</a>

@@ -9,9 +9,31 @@
   &__icon {
     max-width: 150px;
     margin: 0 auto 10px;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      max-width: 120px;
+      margin-bottom: 5px;
+    }
   }
 
   &__title {
     margin-bottom: 15px;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: $font-size__text--regular;
+    }
+  }
+
+  &__description {
+    @include breakpoint($breakpoint-tablet--large) {
+      max-width: 280px;
+      margin: 0 auto;
+
+      font-size: $font-size__text--small + 2;
+
+      br {
+        display: none;
+      }
+    }
   }
 }

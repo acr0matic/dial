@@ -11,6 +11,11 @@
     padding-top: 165px + $header-height;
     padding-bottom: 170px;
   }
+
+  @include breakpoint($breakpoint-tablet--large) {
+    padding-top: 70px + $header-height--mobile;
+    padding-bottom: 70px;
+  }
 }
 
 .hero {
@@ -21,6 +26,10 @@
 
   &__title {
     margin-bottom: 30px;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-bottom: 20px;
+    }
 
     &--big {
       font-size: 56px;
@@ -33,6 +42,10 @@
 
   &__subtitle {
     margin-bottom: 50px;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-bottom: 30px;
+    }
   }
 
   &__picture {
@@ -47,6 +60,14 @@
       max-width: 355px;
     }
 
+    @include breakpoint($breakpoint-tablet--large) {
+      position: static;
+      max-width: 270px;
+      margin: 40px auto 0;
+
+      transform: none;
+    }
+
     &--big {
       max-width: 620px;
 
@@ -57,11 +78,22 @@
   }
 
   &__image {
-    &--animated {
-      animation-name: floating;
-      animation-duration: 3s;
-      animation-iteration-count: infinite;
-      animation-timing-function: ease-in-out;
+  }
+
+  &__action {
+    @include breakpoint($breakpoint-tablet--large) {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .button {
+    @include breakpoint($breakpoint-mobile--large) {
+      flex-grow: 1;
+    }
+
+    @include breakpoint($breakpoint-mobile--medium) {
+      padding: 15px 20px;
     }
   }
 }

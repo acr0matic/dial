@@ -5,12 +5,21 @@
     padding-top: $section-padding - 40;
   }
 
+  @include breakpoint($breakpoint-tablet--large) {
+    overflow: hidden;
+    padding-top: $section-padding - 70;
+  }
+
   &--primary {
     padding-top: $header-height;
   }
 
   &--last {
     margin-bottom: 100px;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-bottom: 35px;
+    }
   }
 
   &__title {
@@ -25,6 +34,11 @@
 
     @include breakpoint($breakpoint-laptop--large) {
       font-size: $font-size__title--small - 8;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-bottom: 30px;
+      font-size: 20px;
     }
 
     &--underline {

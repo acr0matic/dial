@@ -28,8 +28,16 @@
 
   height: $header-height;
 
+  @include breakpoint($breakpoint-tablet--large) {
+    height: $header-height--mobile;
+  }
+
   &__callback {
     text-align: right;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      display: none;
+    }
   }
 
   &__phone {
@@ -38,6 +46,10 @@
 
     color: $color-text__white;
     font-weight: $weight-Bold;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      display: none;
+    }
   }
 
   &__action {
@@ -52,6 +64,10 @@
       &:hover {
         transform: translateX(-3px);
       }
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      display: none;
     }
   }
 }
