@@ -16,7 +16,6 @@ tippy('div[data-tippy-content]', {
   allowHTML: true,
   maxWidth: 300,
   theme: 'flat-white',
-  placement: 'right',
 });
 
 const forms = document.querySelectorAll('form');

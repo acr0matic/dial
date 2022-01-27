@@ -1,4 +1,7 @@
 #textblock {
+  @include breakpoint($breakpoint-mobile--large) {
+    overflow: initial;
+  }
 }
 
 .textblock {
