@@ -47,7 +47,7 @@
 
       <div class="vacancy">
         <div class="row">
-          <div data-aos="fade-up" data-aos-delay="0" class="col-4 mb-4">
+          <div data-aos="fade-up" data-aos-delay="0" class="col-12 col-lg-4 mb-4">
             <div class="vacancy__item">
               <h3 class="vacancy__title">Упаковщик</h3>
               <p class="vacancy__content">
@@ -80,7 +80,7 @@
           </div>
           <!-- /.col-4 -->
 
-          <div data-aos="fade-up" data-aos-delay="100" class="col-4 mb-4">
+          <div data-aos="fade-up" data-aos-delay="100" class="col-12 col-lg-4 mb-4">
             <div class="vacancy__item">
               <h3 class="vacancy__title">Упаковщик</h3>
               <p class="vacancy__content">
@@ -113,7 +113,7 @@
           </div>
           <!-- /.col-4 -->
 
-          <div data-aos="fade-up" data-aos-delay="200" class="col-4 mb-4">
+          <div data-aos="fade-up" data-aos-delay="200" class="col-12 col-lg-4 mb-4">
             <div class="vacancy__item">
               <h3 class="vacancy__title">Упаковщик</h3>
               <p class="vacancy__content">
@@ -146,7 +146,7 @@
           </div>
           <!-- /.col-4 -->
 
-          <div data-aos="fade-up" data-aos-delay="0" class="col-4">
+          <div data-aos="fade-up" data-aos-delay="0" class="col-12 col-lg-4 mb-4 mb-lg-0">
             <div class="vacancy__item">
               <h3 class="vacancy__title">Упаковщик</h3>
               <p class="vacancy__content">
@@ -179,7 +179,7 @@
           </div>
           <!-- /.col-4 -->
 
-          <div data-aos="fade-up" data-aos-delay="100" class="col-4">
+          <div data-aos="fade-up" data-aos-delay="100" class="col-12 col-lg-4 mb-4 mb-lg-0">
             <div class="vacancy__item">
               <h3 class="vacancy__title">Упаковщик</h3>
               <p class="vacancy__content">
@@ -212,7 +212,7 @@
           </div>
           <!-- /.col-4 -->
 
-          <div data-aos="fade-up" data-aos-delay="200" class="col-4">
+          <div data-aos="fade-up" data-aos-delay="200" class="col-12 col-lg-4">
             <div class="vacancy__item">
               <h3 class="vacancy__title">Упаковщик</h3>
               <p class="vacancy__content">
@@ -267,22 +267,22 @@
         <div class="offer__conditional">
           <ul class="list list--big">
             <div class="row">
-              <div class="col-5 mb-4">
+              <div class="col-12 col-lg-5 mb-3 mb-lg-4">
                 <li class="list__item">Заселение в день обращения. Бесплатное проживание в общежитии, в 2 минутах от работы</li>
               </div>
               <!-- /.col-5 -->
 
-              <div class="col-5 offset-1 mb-4">
+              <div class="col-12 col-lg-5 offset-lg-1 mb-3 mb-lg-4">
                 <li class="list__item">4-х местные комнаты с деревянными кроватями (новое постельное белье, новые матрасы)</li>
               </div>
               <!-- /.col-6 -->
 
-              <div class="col-5">
+              <div class="col-12 col-lg-5 mb-3 mb-lg-0">
                 <li class="list__item">Вся бытовая техника (холодильник, стиральные машина)</li>
               </div>
               <!-- /.col-5 -->
 
-              <div class="col-5 offset-1">
+              <div class="col-12 col-lg-5 offset-lg-1">
                 <li class="list__item">Индивидуальные шкафчики для рабочих</li>
               </div>
               <!-- /.col-6 -->
@@ -294,7 +294,7 @@
 
         <div class="offer__gallery">
           <div class="row">
-            <div class="col-6">
+            <div class="col-12 col-lg-6 mb-3 mb-lg-0">
               <div class="row">
                 <div class="col-6">
                   <div class="offer__picture mb-3">
@@ -330,7 +330,7 @@
             </div>
             <!-- /.col-6 -->
 
-            <div class="col-6">
+            <div class="col-12 col-lg-6">
               <div class="row">
                 <div class="col-6">
                   <div class="offer__picture mb-3">
@@ -379,7 +379,7 @@
     <div class="container">
       <div class="callback">
         <div class="row">
-          <div class="col-6">
+          <div class="col-12 col-lg-6 mb-4 mb-lg-0">
             <div class="section__header">
               <h2 class="section__title section__title--underline">
                 Остались вопросы?
@@ -413,7 +413,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-6">
+          <div class="col-12 col-lg-6">
             <div class="callback__picture">
               <img src="img/page/main/callback/picture.png" alt="" class="callback__image image">
             </div>

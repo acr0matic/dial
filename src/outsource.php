@@ -48,7 +48,7 @@
 
       <div class="explain">
         <div class="row">
-          <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+          <div class="col-12 col-lg-4 mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="0">
             <div class="explain__item">
               <img src="img/page/outsource/explain/dollar.svg" alt="" class="explain__icon image">
               <h3 class="explain__title">
@@ -68,7 +68,7 @@
           </div>
           <!-- /.col-4 -->
 
-          <div class="col-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-12 col-lg-4 mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
             <div class="explain__item">
               <img src="img/page/outsource/explain/grow.svg" alt="" class="explain__icon image">
               <h3 class="explain__title">
@@ -88,7 +88,7 @@
           </div>
           <!-- /.col-4 -->
 
-          <div class="col-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-12 col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="explain__item">
               <img src="img/page/outsource/explain/geo.svg" alt="" class="explain__icon image">
               <h3 class="explain__title">
@@ -128,7 +128,7 @@
         <!-- /.section__header -->
 
         <div class="row flex-row-reverse">
-          <div class="col-5 offset-1 position-relative">
+          <div class="col-12 col-lg-5 offset-lg-1 position-relative d-none d-lg-block">
             <div class="textblock__picture mt-0">
               <img src="img/page/outsource/textblock/picture.png" alt="" class="textblock__image image">
             </div>
@@ -136,7 +136,7 @@
           </div>
           <!-- /.col-5 -->
 
-          <div class="col-6">
+          <div class="col-12 col-lg-6">
             <div class="textblock__content">
               <ul class="textblock__list list list--big">
                 <li class="list__item">
@@ -167,8 +167,8 @@
   <section data-name="Оставить заявку" id="textblock" class="section section--last">
     <div class="container">
       <div class="textblock">
-        <div class="row align-items-center">
-          <div class="col-5 position-relative">
+        <div class="row align-items-center flex-column-reverse flex-lg-row">
+          <div class="col-12 col-lg-5 position-relative">
             <div class="textblock__picture mt-0">
               <img src="img/page/outsource/contact/picture.png" alt="" class="textblock__image image">
             </div>
@@ -176,7 +176,7 @@
           </div>
           <!-- /.col-5 -->
 
-          <div class="col-6 offset-1">
+          <div class="col-12 col-lg-6 offset-lg-1 mb-5 mb-lg-0">
             <div class="textblock__content">
               <div class="section__header">
                 <h2 class="section__title section__title--underline">

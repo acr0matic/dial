@@ -38,7 +38,7 @@
     <div class="container">
       <div class="callback">
         <div class="row">
-          <div class="col-6">
+          <div class="col-12 col-lg-6 mb-5 mb-lg-0">
             <div class="section__header">
               <h2 class="section__title section__title--underline">
                 Либо оставьте
@@ -72,7 +72,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-6">
+          <div class="col-12 col-lg-6">
             <div class="callback__picture">
               <img src="img/page/contact/callback/picture.png" alt="" class="callback__image image">
             </div>
