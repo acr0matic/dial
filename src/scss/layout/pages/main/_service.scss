@@ -207,7 +207,7 @@
       left: 280px;
     }
 
-    @include breakpoint($breakpoint-laptop--large) {
+    @include breakpoint($breakpoint-tablet--large) {
       right: 10px;
       left: initial;
     }

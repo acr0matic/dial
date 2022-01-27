@@ -134,11 +134,48 @@
           <div data-micromodal-trigger="modal-callback" class="header__action">заказать звонок</div>
         </div>
         <!-- /.header__callback -->
+
+        <div class="header__mobile">
+          <button class="hamburger hamburger--collapse" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+        </div>
+        <!-- /.header__mobile -->
       </div>
       <!-- /.header -->
     </div>
     <!-- /.container -->
   </header>
+
+  <div id="mobile-menu" class="mobile-menu">
+    <div class="mobile-menu__overlay"></div>
+
+    <div class="mobile-menu__container effect-fade effect-fade--bottom effect-fade--short">
+      <div class="mobile-menu__wrapper">
+        <nav class="mobile-menu__nav nav nav--mobile">
+          <ul class="nav__list">
+            <li class="nav__item mb-3"><a href="index.php" class="nav__link">Главная</a></li>
+            <li class="nav__item mb-3"><a href="index.php" class="nav__link">Аутсорсинг</a></li>
+            <li class="nav__item mb-3"><a href="index.php" class="nav__link">Аутстафинг</a></li>
+            <li class="nav__item mb-3"><a href="portfolio.php" class="nav__link">Соискателям</a></li>
+            <li class="nav__item mb-3"><a href="blog.php" class="nav__link">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <div class="mobile-menu__action">
+          <a href="tel:" class="header__phone link">+7 (967) 101 44 33</a>
+          <div data-micromodal-trigger="modal-callback" class="header__action">заказать звонок</div>
+        </div>
+        <!-- /.mobile-menu__action -->
+      </div>
+      <!-- /.mobile-menu__wrapper -->
+    </div>
+    <!-- /.mobile-menu__container -->
+  </div>
+  <!-- /.mobile-menu -->
+
 
   <div class="widget">
     <a class="widget__link widget__link--hide" href="tel:+79671014433" target="_blank">

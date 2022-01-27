@@ -41,3 +41,51 @@ window.addEventListener('scroll',
     if (window.scrollY >= heroHeight) header.classList.add('header-scroll--shadow');
     else header.classList.remove('header-scroll--shadow')
   });
+
+/* Логика для мобильного меню */
+const mobileMenuButton = document.querySelector('.header__mobile');
+const mobileBurger = mobileMenuButton.querySelector('.hamburger')
+const mobileMenu = document.getElementById('mobile-menu');
+const mobileOverlay = mobileMenu.querySelector('.mobile-menu__overlay');
+const mobileCallback = mobileMenu.querySelector('button');
+
+const mobileClasses = {
+  "open": "mobile-menu--open",
+  "burger": "is-active",
+  "header": "header-scroll--shadow",
+  "overflow": "body-overflow",
+}
+
+mobileMenuButton.addEventListener('click', () => {
+  mobileBurger.classList.toggle(mobileClasses.burger);
+  mobileMenu.classList.toggle(mobileClasses.open);
+
+  if (header.classList.contains(mobileClasses.header)) {
+    setTimeout(() => {
+      header.classList.toggle(mobileClasses.header)
+      document.body.classList.toggle(mobileClasses.overflow);
+    }, 500);
+  }
+
+  else {
+    header.classList.toggle(mobileClasses.header)
+    document.body.classList.toggle(mobileClasses.overflow);
+  }
+});
+
+mobileOverlay.addEventListener('click', () => {
+  mobileBurger.classList.remove(mobileClasses.burger);
+  mobileMenu.classList.remove(mobileClasses.open);
+
+  if (header.classList.contains(mobileClasses.header)) {
+    setTimeout(() => {
+      header.classList.remove(mobileClasses.header)
+      document.body.classList.remove(mobileClasses.overflow);
+    }, 500);
+  }
+
+  else {
+    header.classList.remove(mobileClasses.header)
+    document.body.classList.remove(mobileClasses.overflow);
+  }
+});

@@ -70,4 +70,12 @@
       display: none;
     }
   }
+
+  &__mobile {
+    display: none;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      display: block;
+    }
+  }
 }
