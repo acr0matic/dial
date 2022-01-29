@@ -1,6 +1,6 @@
 <?php include_once('partials/header.php'); ?>
 
-<main>
+<main id="applicant">
   <section style="background-image: url('img/page/applicant/hero/background.svg');" id="hero" class="section section--primary">
     <div class="container">
       <div class="hero">
@@ -71,7 +71,7 @@
               <!-- /.vacancy__salary -->
 
               <div class="vacancy__action">
-                <button data-micromodal-trigger="modal-callback" class="button button-primary me-3">Откликнуться</button>
+                <button data-micromodal-trigger="modal-callback" class="button button-primary me-2 me-lg-3">Откликнуться</button>
                 <button class="button button-outline">Подробнее</button>
               </div>
               <!-- /.vacancy__action -->
@@ -104,7 +104,7 @@
               <!-- /.vacancy__salary -->
 
               <div class="vacancy__action">
-                <button data-micromodal-trigger="modal-callback" class="button button-primary me-3">Откликнуться</button>
+                <button data-micromodal-trigger="modal-callback" class="button button-primary me-2 me-lg-3">Откликнуться</button>
                 <button class="button button-outline">Подробнее</button>
               </div>
               <!-- /.vacancy__action -->
@@ -137,7 +137,7 @@
               <!-- /.vacancy__salary -->
 
               <div class="vacancy__action">
-                <button data-micromodal-trigger="modal-callback" class="button button-primary me-3">Откликнуться</button>
+                <button data-micromodal-trigger="modal-callback" class="button button-primary me-2 me-lg-3">Откликнуться</button>
                 <button class="button button-outline">Подробнее</button>
               </div>
               <!-- /.vacancy__action -->
@@ -170,7 +170,7 @@
               <!-- /.vacancy__salary -->
 
               <div class="vacancy__action">
-                <button data-micromodal-trigger="modal-callback" class="button button-primary me-3">Откликнуться</button>
+                <button data-micromodal-trigger="modal-callback" class="button button-primary me-2 me-lg-3">Откликнуться</button>
                 <button class="button button-outline">Подробнее</button>
               </div>
               <!-- /.vacancy__action -->
@@ -203,7 +203,7 @@
               <!-- /.vacancy__salary -->
 
               <div class="vacancy__action">
-                <button data-micromodal-trigger="modal-callback" class="button button-primary me-3">Откликнуться</button>
+                <button data-micromodal-trigger="modal-callback" class="button button-primary me-2 me-lg-3">Откликнуться</button>
                 <button class="button button-outline">Подробнее</button>
               </div>
               <!-- /.vacancy__action -->
@@ -236,7 +236,7 @@
               <!-- /.vacancy__salary -->
 
               <div class="vacancy__action">
-                <button data-micromodal-trigger="modal-callback" class="button button-primary me-3">Откликнуться</button>
+                <button data-micromodal-trigger="modal-callback" class="button button-primary me-2 me-lg-3">Откликнуться</button>
                 <button class="button button-outline">Подробнее</button>
               </div>
               <!-- /.vacancy__action -->

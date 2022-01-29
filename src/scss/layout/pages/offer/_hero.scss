@@ -1,0 +1,14 @@
+#vacancy .hero {
+  &__title {
+    @include breakpoint($breakpoint-mobile--large) {
+      font-size: 28px;
+    }
+  }
+
+  &__picture {
+    @include breakpoint($breakpoint-mobile--large) {
+      max-width: 300px;
+      margin-top: 60px;
+    }
+  }
+}

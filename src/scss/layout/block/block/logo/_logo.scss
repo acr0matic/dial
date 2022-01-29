@@ -27,10 +27,13 @@
     }
   }
 
-
   &--footer {
     .logo__image {
       max-width: 140px;
+
+      @include breakpoint($breakpoint-mobile--large) {
+        max-width: 100px;
+      }
     }
   }
 

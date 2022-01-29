@@ -3,15 +3,17 @@ $hover: #b66b26;
 $focus: #b66b26;
 
 .button {
-  padding: 16px 38px;
-
   border: none;
   border-radius: $border-radius;
+
+  padding: 16px 38px;
+
   color: $color-text__white;
 
   cursor: pointer;
   outline: none;
 
+  text-align: center;
   transition: $transition__component;
 
   @include breakpoint($breakpoint-tablet--large) {
