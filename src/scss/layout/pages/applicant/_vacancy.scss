@@ -53,10 +53,12 @@
       padding-left: 30px;
       padding-right: 30px;
 
-      @include breakpoint($breakpoint-tablet--large) {
+      @include breakpoint($breakpoint-laptop--large) {
         padding-left: 15px;
         padding-right: 15px;
+      }
 
+      @include breakpoint($breakpoint-tablet--large) {
         width: 100%;
       }
     }

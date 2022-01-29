@@ -29,6 +29,10 @@
   &__list {
     .list__item {
       text-align: justify;
+
+      @include breakpoint($breakpoint-tablet--large) {
+        text-align: left;
+      }
     }
   }
 

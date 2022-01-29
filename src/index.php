@@ -786,13 +786,13 @@
             <div class="row">
               <div class="col-12 col-xxl-9">
                 <form action="" data-trigger="callback" data-subject="Заявка на подбор персонала" class="callback__form form form-callback">
-                  <div class="input mb-4">
+                  <div class="input mb-3 mb-md-4">
                     <input data-required placeholder="Ваш номер телефона" autocomplete="off" type="tel" name="user_phone" class="input__field">
                     <img data-tippy-content="Номер телефона не указан или указан с ошибками" class="input__warning" src="img/icons/other/warning.svg" alt="">
                   </div>
                   <!-- /.input -->
 
-                  <div class="input mb-5">
+                  <div class="input mb-4 mb-md-5">
                     <input data-required placeholder="Вас зовут" autocomplete="off" type="text" name="user_name" class="input__field">
                     <img data-tippy-content="Имя не указано или указано с ошибками" class="input__warning" src="img/icons/other/warning.svg" alt="">
                   </div>

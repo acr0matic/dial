@@ -4,4 +4,16 @@
     align-items: flex-start;
     justify-content: space-between;
   }
+
+  .modal__wrapper {
+    @include breakpoint($breakpoint-tablet--large) {
+      width: 100%;
+    }
+  }
+
+  .modal__picture {
+    @include breakpoint($breakpoint-tablet--large) {
+      display: none;
+    }
+  }
 }

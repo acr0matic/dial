@@ -22,6 +22,11 @@ $border--focus: 2px solid #ffffff;
 
     color: $color-text__white;
 
+    @include breakpoint($breakpoint-tablet--large) {
+      padding: 15px 25px;
+      font-size: 16px;
+    }
+
     @media (hover: hover) {
       &:hover {
         // background-color: $section-primary;
