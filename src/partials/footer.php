@@ -186,6 +186,28 @@
 </div>
 <!-- /.modal -->
 
+<div class="modal modal-accept micromodal-slide" id="modal-accept" aria-hidden="true">
+  <div class="modal__overlay" data-micromodal-close>
+    <div class="modal__container" role="dialog" aria-modal="true">
+      <main class="modal__content">
+        <div class="section__header">
+          <h2 class="section__title mb-4">
+            Заявка отправлена!
+          </h2>
+        </div>
+        <!-- /.section__header -->
+
+        <p class="modal__description">
+          В ближайшее время, наш специалист свяжется с вами и ответит на все вопросы.
+        </p>
+      </main>
+    </div>
+    <!-- /.modal__container -->
+  </div>
+  <!-- /.modal__overlay -->
+</div>
+<!-- /.modal -->
+
 <!-- Скрипты -->
 <!-- build:js js/script.min.js -->
 <script src="scripts/libraries/lazyload.js"></script>
