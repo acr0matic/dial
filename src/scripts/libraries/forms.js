@@ -160,10 +160,12 @@ class Form {
       if (response.ok) {
         if (this.redirect) window.location.href = this.redirect;
 
-        MicroModal.show('modal-success', modalParams);
+        MicroModal.show('modal-accept', modalParams);
+        MicroModal.close('modal-callback', modalParams);
+        MicroModal.close('modal-employer', modalParams);
 
         setTimeout(() => {
-          MicroModal.close('modal-success', modalParams);
+          MicroModal.close('modal-accept', modalParams);
         }, 3000);
       }
 
