@@ -9,30 +9,30 @@
 
   &--header {
     .logo__image {
-      max-width: 120px;
+      max-width: 160px;
 
       @include breakpoint($breakpoint-laptop--large) {
-        max-width: 95px;
+        max-width: 120px;
       }
     }
   }
 
   &--about {
     .logo__image {
-      max-width: 120px;
+      max-width: 160px;
 
       @include breakpoint($breakpoint-laptop--large) {
-        max-width: 105px;
+        max-width: 120px;
       }
     }
   }
 
   &--footer {
     .logo__image {
-      max-width: 140px;
+      max-width: 160px;
 
       @include breakpoint($breakpoint-mobile--large) {
-        max-width: 100px;
+        max-width: 120px;
       }
     }
   }
