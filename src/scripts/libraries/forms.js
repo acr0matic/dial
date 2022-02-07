@@ -142,14 +142,18 @@ class Form {
     const data = new FormData(this.form);
 
     const target = this.form.getAttribute('data-target');
+    const subject = this.form.getAttribute('data-subject');
     const additional = this.form.getAttribute('data-additional');
 
     data.append('target', target);
+    data.append('page', document.title);
+
+    if (subject) data.append('subject', subject);
     if (additional) data.append('additional', additional);
 
-    for (var pair of data.entries()) {
-      console.log(pair[0]+ ', ' + pair[1]);
-    }
+    // for (var pair of data.entries()) {
+    //   console.log(pair[0] + ', ' + pair[1]);
+    // }
 
     try {
       let response = await fetch(this.action, {

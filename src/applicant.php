@@ -71,7 +71,7 @@
               <!-- /.vacancy__salary -->
 
               <div class="vacancy__action">
-                <button data-micromodal-trigger="modal-callback" class="button button-primary me-2 me-lg-3">Откликнуться</button>
+                <button data-micromodal-trigger="modal-vacancy" class="button button-primary me-2 me-lg-3">Откликнуться</button>
                 <button class="button button-outline">Подробнее</button>
               </div>
               <!-- /.vacancy__action -->
@@ -104,7 +104,7 @@
               <!-- /.vacancy__salary -->
 
               <div class="vacancy__action">
-                <button data-micromodal-trigger="modal-callback" class="button button-primary me-2 me-lg-3">Откликнуться</button>
+                <button data-micromodal-trigger="modal-vacancy" class="button button-primary me-2 me-lg-3">Откликнуться</button>
                 <button class="button button-outline">Подробнее</button>
               </div>
               <!-- /.vacancy__action -->
@@ -137,7 +137,7 @@
               <!-- /.vacancy__salary -->
 
               <div class="vacancy__action">
-                <button data-micromodal-trigger="modal-callback" class="button button-primary me-2 me-lg-3">Откликнуться</button>
+                <button data-micromodal-trigger="modal-vacancy" class="button button-primary me-2 me-lg-3">Откликнуться</button>
                 <button class="button button-outline">Подробнее</button>
               </div>
               <!-- /.vacancy__action -->
@@ -170,7 +170,7 @@
               <!-- /.vacancy__salary -->
 
               <div class="vacancy__action">
-                <button data-micromodal-trigger="modal-callback" class="button button-primary me-2 me-lg-3">Откликнуться</button>
+                <button data-micromodal-trigger="modal-vacancy" class="button button-primary me-2 me-lg-3">Откликнуться</button>
                 <button class="button button-outline">Подробнее</button>
               </div>
               <!-- /.vacancy__action -->
@@ -203,7 +203,7 @@
               <!-- /.vacancy__salary -->
 
               <div class="vacancy__action">
-                <button data-micromodal-trigger="modal-callback" class="button button-primary me-2 me-lg-3">Откликнуться</button>
+                <button data-micromodal-trigger="modal-vacancy" class="button button-primary me-2 me-lg-3">Откликнуться</button>
                 <button class="button button-outline">Подробнее</button>
               </div>
               <!-- /.vacancy__action -->
@@ -236,7 +236,7 @@
               <!-- /.vacancy__salary -->
 
               <div class="vacancy__action">
-                <button data-micromodal-trigger="modal-callback" class="button button-primary me-2 me-lg-3">Откликнуться</button>
+                <button data-micromodal-trigger="modal-vacancy" class="button button-primary me-2 me-lg-3">Откликнуться</button>
                 <button class="button button-outline">Подробнее</button>
               </div>
               <!-- /.vacancy__action -->
@@ -391,7 +391,7 @@
 
             <div class="row">
               <div class="col-12 col-xxl-9">
-                <form action="" data-trigger="callback" data-subject="Заявка на подбор персонала" class="callback__form form form-callback">
+                <form action="php/mail.php" data-target="callback" data-subject="Заявка на подбор персонала" class="callback__form form form-callback">
                   <div class="input mb-3 mb-md-4">
                     <input data-required placeholder="Ваш номер телефона" autocomplete="off" type="tel" name="user_phone" class="input__field">
                     <img data-tippy-content="Номер телефона не указан или указан с ошибками" class="input__warning" src="img/icons/other/warning.svg" alt="">
@@ -428,5 +428,83 @@
     <!-- /.container -->
   </section>
 </main>
+
+<div class="modal modal-vacancy micromodal-slide" id="modal-vacancy" aria-hidden="true">
+  <div class="modal__overlay" data-micromodal-close>
+    <div class="modal__container" role="dialog" aria-modal="true">
+      <header class="modal__header">
+        <svg data-micromodal-close class="modal__close" width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect data-micromodal-close x="12.6836" y="44.6875" width="45" height="9.42038" transform="rotate(-45 12.6836 44.6875)" fill="white" />
+          <rect data-micromodal-close x="19.3457" y="12.6582" width="45" height="9.42038" transform="rotate(45 19.3457 12.6582)" fill="white" />
+        </svg>
+      </header>
+
+      <main class="modal__content">
+        <div class="modal__wrapper">
+          <div class="section__header">
+            <h2 class="section__title section__title--underline">
+              Оставьте отклик
+              <br>
+              и мы перезвоним
+            </h2>
+          </div>
+          <!-- /.section__header -->
+
+          <form action="php/mail.php" data-target="vacancy" data-subject="Отклик на вакансию - " data-additional="" class="callback__form form form-callback">
+            <div class="row mb-4 mb-md-5">
+              <div class="col-12 col-lg-6 mb-3 mb-md-4">
+                <div class="input">
+                  <input data-required placeholder="Ваш номер телефона" autocomplete="off" type="tel" name="user_phone" class="input__field">
+                  <img data-tippy-content="Номер телефона не указан или указан с ошибками" class="input__warning" src="img/icons/other/warning.svg" alt="">
+                </div>
+                <!-- /.input -->
+              </div>
+              <!-- /.col-6 -->
+
+              <div class="col-12 col-lg-6 mb-3 mb-md-4">
+                <div class="input">
+                  <input data-required placeholder="Вас зовут" autocomplete="off" type="text" name="user_name" class="input__field">
+                  <img data-tippy-content="Имя не указано или указано с ошибками" class="input__warning" src="img/icons/other/warning.svg" alt="">
+                </div>
+                <!-- /.input -->
+              </div>
+              <!-- /.col-6 -->
+
+              <div class="col-12 col-lg-6 mb-3 mb-md-0">
+                <div class="input">
+                  <input data-required placeholder="Гражданство" autocomplete="off" type="text" name="user_nationality" class="input__field">
+                  <img data-tippy-content="Гражданство не указано или указано с ошибками" class="input__warning" src="img/icons/other/warning.svg" alt="">
+                </div>
+                <!-- /.input -->
+              </div>
+              <!-- /.col-6 -->
+
+              <div class="col-12 col-lg-6">
+                <div class="input">
+                  <input min="14" max="100" data-required placeholder="Возраст" autocomplete="off" type="number" name="user_age" class="input__field">
+                  <img data-tippy-content="Возраст не указан или указан с ошибками" class="input__warning" src="img/icons/other/warning.svg" alt="">
+                </div>
+                <!-- /.input -->
+              </div>
+              <!-- /.col-6 -->
+            </div>
+            <!-- /.row -->
+
+            <button data-sending="Отправка..." class="form__button button button-primary" type="submit">Отправить</button>
+          </form>
+        </div>
+        <!-- /.modal__wrapper -->
+
+        <div class="modal__picture">
+          <img src="img/other/modal/callback.png" alt="" class="modal__image image">
+        </div>
+        <!-- /.modal__picture -->
+      </main>
+    </div>
+    <!-- /.modal__container -->
+  </div>
+  <!-- /.modal__overlay -->
+</div>
+<!-- /.modal -->
 
 <?php include_once('partials/footer.php'); ?>

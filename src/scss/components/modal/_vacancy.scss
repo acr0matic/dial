@@ -1,0 +1,32 @@
+.modal-vacancy {
+  .modal__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .modal__wrapper {
+    width: 60%;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      width: 65%;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      width: 100%;
+    }
+  }
+
+  .modal__picture {
+    flex-shrink: 0;
+    width: 350px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      width: 260px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      display: none;
+    }
+  }
+}

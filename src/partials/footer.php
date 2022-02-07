@@ -95,7 +95,7 @@
 
           <div class="row">
             <div class="col-12 col-xxl-9">
-              <form action="" data-trigger="callback" data-subject="Заявка на подбор персонала" class="callback__form form form-callback">
+              <form action="" data-target="callback" data-subject="Заявка на подбор персонала" class="callback__form form form-callback">
                 <div class="input mb-4">
                   <input data-required placeholder="Ваш номер телефона" autocomplete="off" type="tel" name="user_phone" class="input__field">
                   <img data-tippy-content="Номер телефона не указан или указан с ошибками" class="input__warning" src="img/icons/other/warning.svg" alt="">
@@ -152,7 +152,7 @@
 
           <div class="row">
             <div class="col-12 col-xxl-9">
-              <form action="php/mail.php" data-trigger="callback" data-subject="Заявка на подбор персонала" class="callback__form form form-callback">
+              <form action="php/mail.php" data-target="callback" data-subject="Заявка на обратный звонок" class="callback__form form form-callback">
                 <div class="input mb-3 mb-md-4">
                   <input data-required placeholder="Ваш номер телефона" autocomplete="off" type="tel" name="user_phone" class="input__field">
                   <img data-tippy-content="Номер телефона не указан или указан с ошибками" class="input__warning" src="img/icons/other/warning.svg" alt="">
@@ -227,6 +227,7 @@
 <script src="scripts/main.js"></script>
 <script src="scripts/header.js"></script>
 <script src="scripts/slider.js"></script>
+<script src="scripts/vacancy.js"></script>
 <!-- endbuild -->
 </body>
 
