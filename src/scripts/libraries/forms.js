@@ -9,6 +9,8 @@ class Form {
     this.action = form.getAttribute('action');
     this.redirect = form.getAttribute('data-redirect');
 
+    this.modal = form.closest('.modal');
+
     this.privacy = form.querySelector('input[class=checkbox__privacy]');
     this.submit = form.querySelector('button[type=submit]');
     this.fields = form.querySelectorAll('.input__field');
@@ -165,8 +167,7 @@ class Form {
         if (this.redirect) window.location.href = this.redirect;
 
         MicroModal.show('modal-accept', modalParams);
-        MicroModal.close('modal-callback', modalParams);
-        MicroModal.close('modal-employer', modalParams);
+        if (this.modal) MicroModal.close(this.modal.id, modalParams);
 
         setTimeout(() => {
           MicroModal.close('modal-accept', modalParams);
@@ -174,7 +175,7 @@ class Form {
       }
 
       let result = await response.json();
-      console.log(result);
+      // console.log(result);
 
       this.Clear();
     }
