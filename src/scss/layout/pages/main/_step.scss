@@ -7,11 +7,37 @@
 
 .step {
   &__col {
+    &:nth-child(1) {
+      .step__picture {
+        top: 0;
+        right: 50px;
+
+        @include breakpoint($breakpoint-laptop--large) {
+          right: 30px;
+        }
+
+        @include breakpoint($breakpoint-tablet--large) {
+          width: 40px;
+        }
+      }
+    }
+
     &:nth-child(2) {
       margin-top: 70px;
 
       @include breakpoint($breakpoint-tablet--large) {
         margin-top: 0;
+      }
+
+      .step__picture {
+        top: 30px;
+        right: 45px;
+
+        @include breakpoint($breakpoint-tablet--large) {
+          top: 70px;
+          right: 25px;
+          width: 50px;
+        }
       }
     }
 
@@ -22,6 +48,17 @@
 
       @include breakpoint($breakpoint-tablet--large) {
         margin-top: 0;
+      }
+
+      .step__picture {
+        top: 25px;
+        right: 30px;
+
+        @include breakpoint($breakpoint-tablet--large) {
+          top: 55px;
+          right: 15px;
+          width: 80px;
+        }
       }
     }
 
@@ -34,6 +71,16 @@
 
       @include breakpoint($breakpoint-tablet--large) {
         margin-top: 0;
+      }
+
+      .step__picture {
+        top: 20px;
+        right: 20px;
+
+        @include breakpoint($breakpoint-tablet--large) {
+          top: 55px;
+          width: 80px;
+        }
       }
     }
   }
@@ -87,51 +134,6 @@
 
     @include breakpoint($breakpoint-mobile--large) {
       display: none;
-    }
-
-    &--first {
-      top: 0;
-      right: 50px;
-
-      @include breakpoint($breakpoint-laptop--large) {
-        right: 30px;
-      }
-
-      @include breakpoint($breakpoint-tablet--large) {
-        width: 40px;
-      }
-    }
-
-    &--second {
-      top: 30px;
-      right: 45px;
-
-      @include breakpoint($breakpoint-tablet--large) {
-        top: 70px;
-        right: 25px;
-        width: 50px;
-      }
-    }
-
-    &--third {
-      top: 25px;
-      right: 30px;
-
-      @include breakpoint($breakpoint-tablet--large) {
-        top: 55px;
-        right: 15px;
-        width: 80px;
-      }
-    }
-
-    &--fourth {
-      top: 20px;
-      right: 20px;
-
-      @include breakpoint($breakpoint-tablet--large) {
-        top: 55px;
-        width: 80px;
-      }
     }
   }
 }

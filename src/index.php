@@ -134,7 +134,7 @@
                 </div>
                 <!-- /.step__content -->
 
-                <div class="step__picture step__picture--first">
+                <div class="step__picture">
                   <img src="img/page/main/step/1.png" alt="" class="step__image image">
                 </div>
                 <!-- /.step__picture -->
@@ -153,7 +153,7 @@
                 </div>
                 <!-- /.step__content -->
 
-                <div class="step__picture step__picture--second">
+                <div class="step__picture">
                   <img src="img/page/main/step/2.png" alt="" class="step__image image">
                 </div>
                 <!-- /.step__picture -->
@@ -172,7 +172,7 @@
                 </div>
                 <!-- /.step__content -->
 
-                <div class="step__picture step__picture--third">
+                <div class="step__picture">
                   <img src="img/page/main/step/3.png" alt="" class="step__image image">
                 </div>
                 <!-- /.step__picture -->
@@ -195,7 +195,7 @@
                 </div>
                 <!-- /.step__content -->
 
-                <div class="step__picture step__picture--fourth">
+                <div class="step__picture">
                   <img src="img/page/main/step/4.png" alt="" class="step__image image">
                 </div>
                 <!-- /.step__picture -->
