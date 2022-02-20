@@ -64,12 +64,6 @@
                 — Бесплатное обучение
               </p>
 
-              <div class="vacancy__salary">
-                Зарплата:
-                <strong class="vacancy__price">96 000 — 101 000 руб.</strong>
-              </div>
-              <!-- /.vacancy__salary -->
-
               <div class="vacancy__action">
                 <button data-micromodal-trigger="modal-vacancy" class="button button-primary me-2 me-lg-3">Откликнуться</button>
                 <button class="button button-outline">Подробнее</button>
@@ -80,7 +74,7 @@
           </div>
           <!-- /.col-4 -->
 
-          <div data-aos="fade-up" data-aos-delay="100" class="col-12 col-lg-4 mb-4">
+          <div data-aos="fade-up" data-aos-delay="0" class="col-12 col-lg-4 mb-4">
             <div class="vacancy__item">
               <h3 class="vacancy__title">Упаковщик</h3>
               <p class="vacancy__content">
@@ -97,12 +91,6 @@
                 — Бесплатное обучение
               </p>
 
-              <div class="vacancy__salary">
-                Зарплата:
-                <strong class="vacancy__price">96 000 — 101 000 руб.</strong>
-              </div>
-              <!-- /.vacancy__salary -->
-
               <div class="vacancy__action">
                 <button data-micromodal-trigger="modal-vacancy" class="button button-primary me-2 me-lg-3">Откликнуться</button>
                 <button class="button button-outline">Подробнее</button>
@@ -113,7 +101,7 @@
           </div>
           <!-- /.col-4 -->
 
-          <div data-aos="fade-up" data-aos-delay="200" class="col-12 col-lg-4 mb-4">
+          <div data-aos="fade-up" data-aos-delay="0" class="col-12 col-lg-4 mb-4">
             <div class="vacancy__item">
               <h3 class="vacancy__title">Упаковщик</h3>
               <p class="vacancy__content">
@@ -130,12 +118,6 @@
                 — Бесплатное обучение
               </p>
 
-              <div class="vacancy__salary">
-                Зарплата:
-                <strong class="vacancy__price">96 000 — 101 000 руб.</strong>
-              </div>
-              <!-- /.vacancy__salary -->
-
               <div class="vacancy__action">
                 <button data-micromodal-trigger="modal-vacancy" class="button button-primary me-2 me-lg-3">Откликнуться</button>
                 <button class="button button-outline">Подробнее</button>
@@ -146,7 +128,7 @@
           </div>
           <!-- /.col-4 -->
 
-          <div data-aos="fade-up" data-aos-delay="0" class="col-12 col-lg-4 mb-4 mb-lg-0">
+          <div data-aos="fade-up" data-aos-delay="0" class="col-12 col-lg-4 mb-4">
             <div class="vacancy__item">
               <h3 class="vacancy__title">Упаковщик</h3>
               <p class="vacancy__content">
@@ -163,12 +145,6 @@
                 — Бесплатное обучение
               </p>
 
-              <div class="vacancy__salary">
-                Зарплата:
-                <strong class="vacancy__price">96 000 — 101 000 руб.</strong>
-              </div>
-              <!-- /.vacancy__salary -->
-
               <div class="vacancy__action">
                 <button data-micromodal-trigger="modal-vacancy" class="button button-primary me-2 me-lg-3">Откликнуться</button>
                 <button class="button button-outline">Подробнее</button>
@@ -179,7 +155,7 @@
           </div>
           <!-- /.col-4 -->
 
-          <div data-aos="fade-up" data-aos-delay="100" class="col-12 col-lg-4 mb-4 mb-lg-0">
+          <div data-aos="fade-up" data-aos-delay="0" class="col-12 col-lg-4 mb-4">
             <div class="vacancy__item">
               <h3 class="vacancy__title">Упаковщик</h3>
               <p class="vacancy__content">
@@ -196,12 +172,6 @@
                 — Бесплатное обучение
               </p>
 
-              <div class="vacancy__salary">
-                Зарплата:
-                <strong class="vacancy__price">96 000 — 101 000 руб.</strong>
-              </div>
-              <!-- /.vacancy__salary -->
-
               <div class="vacancy__action">
                 <button data-micromodal-trigger="modal-vacancy" class="button button-primary me-2 me-lg-3">Откликнуться</button>
                 <button class="button button-outline">Подробнее</button>
@@ -212,7 +182,7 @@
           </div>
           <!-- /.col-4 -->
 
-          <div data-aos="fade-up" data-aos-delay="200" class="col-12 col-lg-4">
+          <div data-aos="fade-up" data-aos-delay="0" class="col-12 col-lg-4 mb-4">
             <div class="vacancy__item">
               <h3 class="vacancy__title">Упаковщик</h3>
               <p class="vacancy__content">
@@ -228,12 +198,6 @@
                 <br>
                 — Бесплатное обучение
               </p>
-
-              <div class="vacancy__salary">
-                Зарплата:
-                <strong class="vacancy__price">96 000 — 101 000 руб.</strong>
-              </div>
-              <!-- /.vacancy__salary -->
 
               <div class="vacancy__action">
                 <button data-micromodal-trigger="modal-vacancy" class="button button-primary me-2 me-lg-3">Откликнуться</button>

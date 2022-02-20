@@ -19,7 +19,7 @@
           </h2>
 
           <div class="hero__action">
-            <button data-micromodal-trigger="modal-callback" class="button button-primary me-2">Подобрать персонал</button>
+            <button data-micromodal-trigger="modal-employer" class="button button-primary me-2">Подобрать персонал</button>
             <button onclick="window.location.href='applicant.php#vacancy'" class="button button-outline">Вакансии</button>
           </div>
           <!-- /.hero__action -->
@@ -38,7 +38,7 @@
 
   <section data-name="Задачи" id="textblock" class="section">
     <div class="container">
-      <div class="textblock">
+      <div class="textblock textblock--main">
         <div class="row flex-column-reverse flex-lg-row">
           <div class="col-12 col-lg-7 position-relative">
             <div class="textblock__picture">
@@ -46,10 +46,13 @@
             </div>
             <!-- /.textblock__picture -->
 
-            <div class="tooltip tooltip--animated tooltip-employer tooltip-employer--hr" data-tippy-content="Я сотрудник кадрового отдела, нахожу кандидатов на ваши вакансии, провожу собеседования и координирую сотрудников до места работы"></div>
-            <div class="tooltip tooltip--animated tooltip-employer tooltip-employer--hr2" data-tippy-content="А я занимаюсь рекламой, размещаю вакансии на самых разных площадках, чтобы соискатели находили самые лучшие вакансии!"></div>
-            <div class="tooltip tooltip--animated tooltip-employer tooltip-employer--hr3" data-tippy-content="Привет! А я менеджер объекта, в мои обязанности входит: составление графика работы и контроль его исполнения; ведение табелей учета рабочего времени и контроль качества работы персонала!"></div>
-            <div class="tooltip tooltip--animated tooltip-employer tooltip-employer--hr4" data-tippy-content="А я сотрудник офиса! Я веду деловые переписки с представителями объектов и решаю все вытекающие вопросы. "></div>
+            <div class="textblock__tooltip">
+              <div class="tooltip tooltip--animated" data-tippy-content="Я сотрудник кадрового отдела, нахожу кандидатов на ваши вакансии, провожу собеседования и координирую сотрудников до места работы"></div>
+              <div class="tooltip tooltip--animated" data-tippy-content="А я занимаюсь рекламой, размещаю вакансии на самых разных площадках, чтобы соискатели находили самые лучшие вакансии!"></div>
+              <div class="tooltip tooltip--animated" data-tippy-content="Привет! А я менеджер объекта, в мои обязанности входит: составление графика работы и контроль его исполнения; ведение табелей учета рабочего времени и контроль качества работы персонала!"></div>
+              <div class="tooltip tooltip--animated" data-tippy-content="А я сотрудник офиса! Я веду деловые переписки с представителями объектов и решаю все вытекающие вопросы. "></div>
+            </div>
+            <!-- /.textblock__tooltip -->
           </div>
           <!-- /.col-7 -->
 
@@ -291,7 +294,7 @@
         <!-- /.about__logo -->
 
         <div class="row">
-          <div class="col-12 col-lg-7 col-xxl-6">
+          <div class="col-12">
             <p class="about__description">
               Мы специализируемся на предоставлении услуг аутстафинга и аутсорсинга, организации бригад работников для складской логистики, общественного питания, торговли, производства и оперативном управлении этими бригадами.
             </p>

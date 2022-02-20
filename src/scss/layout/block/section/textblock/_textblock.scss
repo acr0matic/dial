@@ -5,6 +5,66 @@
 }
 
 .textblock {
+  &--main {
+    .tooltip {
+      position: absolute;
+
+      &:nth-child(1) {
+        right: 240px;
+        bottom: 80px;
+
+        @include breakpoint($breakpoint-laptop--large) {
+          right: 140px;
+          bottom: 0;
+        }
+
+        @include breakpoint($breakpoint-mobile--large) {
+          right: 20%;
+        }
+      }
+
+      &:nth-child(2) {
+        top: 220px;
+        right: 320px;
+
+        @include breakpoint($breakpoint-laptop--large) {
+          top: 200px;
+          right: 220px;
+        }
+
+        @include breakpoint($breakpoint-mobile--large) {
+          top: 30%;
+          right: 30%;
+        }
+      }
+
+      &:nth-child(3) {
+        top: 180px;
+        left: 50px;
+
+        @include breakpoint($breakpoint-mobile--large) {
+          top: 20%;
+          left: 10%;
+        }
+      }
+
+      &:nth-child(4) {
+        bottom: 160px;
+        left: 130px;
+
+        @include breakpoint($breakpoint-laptop--large) {
+          bottom: 80px;
+          left: 110px;
+        }
+
+        @include breakpoint($breakpoint-mobile--large) {
+          bottom: 10%;
+          left: 10%;
+        }
+      }
+    }
+  }
+
   &__picture {
     margin-top: 85px;
     max-width: 660px;

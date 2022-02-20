@@ -34,64 +34,6 @@
       animation: pulse 3s linear infinite;
     }
   }
-
-  &-employer {
-    position: absolute;
-
-    &--hr {
-      right: 240px;
-      bottom: 80px;
-
-      @include breakpoint($breakpoint-laptop--large) {
-        right: 140px;
-        bottom: 0;
-      }
-
-      @include breakpoint($breakpoint-mobile--large) {
-        right: 20%;
-      }
-    }
-
-    &--hr2 {
-      top: 220px;
-      right: 320px;
-
-      @include breakpoint($breakpoint-laptop--large) {
-        top: 200px;
-        right: 220px;
-      }
-
-      @include breakpoint($breakpoint-mobile--large) {
-        top: 30%;
-        right: 30%;
-      }
-    }
-
-    &--hr3 {
-      top: 180px;
-      left: 50px;
-
-      @include breakpoint($breakpoint-mobile--large) {
-        top: 20%;
-        left: 10%;
-      }
-    }
-
-    &--hr4 {
-      bottom: 160px;
-      left: 130px;
-
-      @include breakpoint($breakpoint-laptop--large) {
-        bottom: 80px;
-        left: 110px;
-      }
-
-      @include breakpoint($breakpoint-mobile--large) {
-        bottom: 10%;
-        left: 10%;
-      }
-    }
-  }
 }
 
 @keyframes pulse {

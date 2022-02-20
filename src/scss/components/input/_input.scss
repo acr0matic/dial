@@ -73,7 +73,7 @@ input[type="number"] {
 
   &--error {
     .input__field {
-      border-color: $border--error;
+      border: $border--error;
     }
 
     .input__warning {

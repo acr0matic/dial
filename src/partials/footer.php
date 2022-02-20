@@ -50,6 +50,7 @@
         <div class="col-6 col-lg-3 col-xxl-2 offset-xxl-1">
           <div class="footer__contact">
             <a href="tel:+79671014433" class="phone mb-2 link">+7 (967) 101 44 33</a>
+            <a href="tel:+79254618083" class="phone mb-2 link">+7 (925) 461 80 83</a>
             <a href="mailto:dial@site.ru" class="email mb-2 link">Dial@site.ru</a>
             <a href="" class="address link" target="_blank">
               г. Москва, улица Матросская Тишина, д.23/7, корпус 1, помещение 3, комната №7, офис 4
@@ -97,14 +98,20 @@
             <div class="col-12 col-xxl-9">
               <form action="" data-target="callback" data-subject="Заявка на подбор персонала" class="callback__form form form-callback">
                 <div class="input mb-4">
-                  <input data-required placeholder="Ваш номер телефона" autocomplete="off" type="tel" name="user_phone" class="input__field">
+                  <input data-required placeholder="Ваш номер телефона?" autocomplete="off" type="tel" name="user_phone" class="input__field">
                   <img data-tippy-content="Номер телефона не указан или указан с ошибками" class="input__warning" src="img/icons/other/warning.svg" alt="">
                 </div>
                 <!-- /.input -->
 
-                <div class="input mb-5">
-                  <input data-required placeholder="Вас зовут" autocomplete="off" type="text" name="user_name" class="input__field">
+                <div class="input mb-4">
+                  <input data-required placeholder="Как к Вам обращаться?" autocomplete="off" type="text" name="user_name" class="input__field">
                   <img data-tippy-content="Имя не указано или указано с ошибками" class="input__warning" src="img/icons/other/warning.svg" alt="">
+                </div>
+                <!-- /.input -->
+
+                <div class="input mb-5">
+                  <input placeholder="Какую компанию представляете?" autocomplete="off" type="text" name="user_company" class="input__field">
+                  <img data-tippy-content="Компания не указана или указано с ошибками" class="input__warning" src="img/icons/other/warning.svg" alt="">
                 </div>
                 <!-- /.input -->
 

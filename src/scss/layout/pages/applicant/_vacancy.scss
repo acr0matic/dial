@@ -18,21 +18,11 @@
 
   &__content {
     line-height: 140%;
-    margin-bottom: 15px;
-
-    @include breakpoint($breakpoint-mobile--large) {
-      font-size: 16px;
-    }
-  }
-
-  &__salary {
-    display: flex;
-    flex-direction: column;
-
     margin-bottom: 50px;
 
     @include breakpoint($breakpoint-mobile--large) {
       margin-bottom: 25px;
+      font-size: 16px;
     }
   }
 

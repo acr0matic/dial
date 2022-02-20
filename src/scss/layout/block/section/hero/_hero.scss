@@ -16,12 +16,48 @@
     padding-top: 70px + $header-height--mobile;
     padding-bottom: 70px;
   }
+
+  @include breakpoint($breakpoint-mobile--large) {
+    padding-top: 30px + $header-height--mobile;
+  }
 }
 
 .hero {
   position: relative;
 
   &__content {
+  }
+
+  &__map {
+    position: absolute;
+    top: 50%;
+    right: 0;
+
+    width: 45%;
+    height: 550px;
+
+    overflow: hidden;
+    border-top-left-radius: $border-radius--large;
+    border-bottom-left-radius: $border-radius--large;
+
+    transform: translateY(-50%);
+
+    @include breakpoint($breakpoint-tablet--large) {
+      position: relative;
+      top: 0;
+
+      width: 100%;
+      height: 300px;
+      margin-top: 40px;
+      transform: none;
+
+      border-radius: $border-radius--large;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      height: 220px;
+      border-radius: $border-radius--medium;
+    }
   }
 
   &__title {
@@ -41,11 +77,16 @@
       @include breakpoint($breakpoint-tablet--large) {
         font-size: 36px;
       }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        font-size: 24px;
+      }
     }
   }
 
   &__subtitle {
     margin-bottom: 50px;
+    line-height: 135%;
 
     @include breakpoint($breakpoint-tablet--large) {
       margin-bottom: 30px;
